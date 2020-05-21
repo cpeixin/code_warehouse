@@ -1,0 +1,88 @@
+<configuration>
+  
+　　<property>
+        <name>hive.metastore.local</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>javax.jdo.option.ConnectionURL</name>
+        <value>jdbc:mysql://localhost:3306/hive?useSSL=false</value>
+    </property>
+ 
+    <property>
+        <name>javax.jdo.option.ConnectionDriverName</name>
+        <value>com.mysql.jdbc.Driver</value>
+    </property>
+　　<!--mysql用户名-->
+    <property>
+        <name>javax.jdo.option.ConnectionUserName</name>
+        <value>root</value>
+    </property>
+　　<!--mysql密码-->
+　　<property>
+        <name>javax.jdo.option.ConnectionPassword</name>
+        <value>cpx726175</value>
+    </property>
+ 
+ <!-- hive用来存储不同阶段的map/reduce的执行计划的目录，同时也存储中间输出结果
+，默认是/tmp/<user.name>/hive,我们实际一般会按组区分，然后组内自建一个tmp目录存>储 -->
+ 
+    <property>
+        <name>hive.exec.local.scratchdir</name>
+        <value>/tmp/hive</value>
+    </property>
+ 
+ 
+    <property>
+        <name>hive.downloaded.resources.dir</name>
+            <value>/tmp/hive</value>
+    </property>
+ 
+    <property>
+ 
+        <name>hive.metastore.warehouse.dir</name>
+        <value>/user/hive/warehouse</value>
+    </property>
+ 
+    <property>
+        <name>hive.server2.logging.operation.log.location</name>
+        <value>/tmp/hive</value>
+    </property>
+    <property>
+        <name>hive.cli.print.header</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>hive.cli.print.current.db</name>
+        <value>true</value>
+    </property>
+    <!-- 这是hiveserver2 -->
+    <property>
+         <name>hive.server2.thrift.port</name>
+     	 <value>10000</value>
+    </property>
+
+    <property>
+    	<name>hive.server2.thrift.bind.host</name>
+       	<value>192.168.254.117</value>
+    </property>
+<!--<property>
+        <name>beeline.hs2.connection.user</name>
+        <value>hive</value>
+    </property>
+
+    <property>
+         <name>beeline.hs2.connection.password</name>
+         <value>hive</value>
+    </property> -->
+  <property>
+    <name>hive.server2.thrift.client.user</name>
+    <value>hive</value>
+    <description>Username to use against thrift client</description>
+  </property>
+  <property>
+    <name>hive.server2.thrift.client.password</name>
+    <value>hive</value>
+    <description>Password to use against thrift client</description>
+  </property>
+</configuration>

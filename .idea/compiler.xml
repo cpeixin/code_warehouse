@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flink" />
+        <module name="scala" />
+        <module name="spark_core" />
+        <module name="spark_sql" />
+        <module name="spark_streaming" />
+        <module name="structured_streaming" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="code_warehouse" target="1.5" />
+      <module name="flink" target="1.8" />
+      <module name="hadoop" target="1.5" />
+      <module name="scala" target="1.5" />
+      <module name="spark_core" target="1.5" />
+      <module name="spark_sql" target="1.5" />
+      <module name="spark_streaming" target="1.5" />
+      <module name="sparkCase" target="1.5" />
+      <module name="structured_streaming" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
