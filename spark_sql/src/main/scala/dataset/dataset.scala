@@ -29,6 +29,8 @@ object dataset {
     // DataFrames can be converted to a Dataset by providing a class. Mapping will be done by name
     val path = "examples/src/main/resources/people.json"
     val peopleDS: Dataset[Person] = spark.read.json(path).as[Person]
+
+    peopleDS.sort()
     peopleDS.show()
     // +----+-------+
     // | age|   name|
