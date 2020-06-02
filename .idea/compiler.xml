@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flink" />
+        <module name="java" />
         <module name="scala" />
         <module name="spark_core" />
         <module name="spark_sql" />
@@ -18,6 +19,7 @@
       <module name="code_warehouse" target="1.5" />
       <module name="flink" target="1.8" />
       <module name="hadoop" target="1.5" />
+      <module name="java" target="1.5" />
       <module name="scala" target="1.5" />
       <module name="spark_core" target="1.5" />
       <module name="spark_sql" target="1.5" />

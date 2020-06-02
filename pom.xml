@@ -18,6 +18,7 @@
         <module>spark_streaming</module>
         <module>structured_streaming</module>
         <module>flink</module>
+        <module>java</module>
     </modules>
 
 
