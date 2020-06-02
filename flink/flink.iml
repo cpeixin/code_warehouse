@@ -9,9 +9,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/scala" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="8.0" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="scala-sdk-2.11.8" level="application" />
+    <orderEntry type="library" name="scala-sdk-2.11.12" level="application" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-scala_2.11:1.10.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-java:1.10.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-shaded-asm-7:7.1-9.0" level="project" />
