@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/code_warehouse.iml" filepath="$PROJECT_DIR$/code_warehouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink/flink.iml" filepath="$PROJECT_DIR$/flink/flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/scala/scala.iml" filepath="$PROJECT_DIR$/scala/scala.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark_core/spark_core.iml" filepath="$PROJECT_DIR$/spark_core/spark_core.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark_sql/spark_sql.iml" filepath="$PROJECT_DIR$/spark_sql/spark_sql.iml" />

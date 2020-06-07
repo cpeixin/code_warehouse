@@ -19,6 +19,7 @@
         <module>structured_streaming</module>
         <module>flink</module>
         <module>java</module>
+        <module>leetcode</module>
     </modules>
 
 

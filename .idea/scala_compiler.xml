@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="scala,spark_sql,structured_streaming,spark_streaming,spark_core">
+    <profile name="Maven 1" modules="structured_streaming,spark_streaming,spark_core,spark_sql,scala">
       <parameters>
         <parameter value="-target:jvm-1.5" />
       </parameters>
     </profile>
-    <profile name="Maven 2" modules="flink">
+    <profile name="Maven 2" modules="flink_stream,flink">
       <parameters>
         <parameter value="-nobootcp" />
       </parameters>
