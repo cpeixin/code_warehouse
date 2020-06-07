@@ -1,16 +1,15 @@
-package tableAPI
+package SQL
 
 import org.apache.flink.streaming.api.TimeCharacteristic
 import org.apache.flink.streaming.api.functions.timestamps.BoundedOutOfOrdernessTimestampExtractor
-import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
+import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment, _}
 import org.apache.flink.streaming.api.windowing.time.Time
-import org.apache.flink.table.api.{EnvironmentSettings, Slide, Table, Tumble}
 import org.apache.flink.table.api.scala.StreamTableEnvironment
+import org.apache.flink.table.api.{EnvironmentSettings, Table, Tumble}
 import org.apache.flink.types.Row
-import org.apache.flink.streaming.api.scala._
 
 
-object table_stream_window {
+object sql_stream_window {
 
   case class GameData(user_id: String, game_id: String, game_time: Long, game_score: Int)
 
@@ -31,23 +30,29 @@ object table_stream_window {
       }
     })
 
-    //分组聚合操作
     import org.apache.flink.table.api.scala._
 
+    table_env.registerDataStream("t_game_detail", gameStream, 'user_id, 'game_id, 'game_time.rowtime, 'game_score)
+    //滚动窗口
+//    val game_score_sum: Table = table_env
+//      .sqlQuery("select user_id, " +
+//        "sum(game_score) " +
+//        "from t_game_detail " +
+//        "group by tumble(game_time, interval '5' second), user_id")
 
-    //创建动态Table,并且指定event time
-    val game_table: Table = table_env.fromDataStream(gameStream, 'user_id, 'game_id, 'game_time.rowtime, 'game_score)
+//    滑动窗口
+//    val game_score_sum: Table = table_env.sqlQuery("select user_id, " +
+//      "sum(game_score) " +
+//      "from t_game_detail " +
+//      "group by hop(game_time, interval '5' second, interval '10' second), user_id")
 
-
-    //开启窗口,滑动窗口
-    //    game_table.window(Slide.over("10.second").every("5.second").on("game_time").as("window"))
-
-    //开启窗口,滚动窗口
-    //    val game_score_sum: Table = game_table.window(Tumble.over("5.second").on("game_time").as("window"))
-    val game_score_sum: Table = game_table
-      .window(Tumble over 5.second on 'game_time as 'window)
-      .groupBy('window, 'user_id) //必须指定窗口字段
-      .select('user_id, 'window.start, 'window.end, 'game_score.sum)
+//  打印窗口
+    val game_score_sum: Table = table_env.sqlQuery("select user_id, " +
+      "hop_start(game_time, interval '5' second, interval '10' second)," +
+      "hop_end(game_time, interval '5' second, interval '10' second)," +
+      "sum(game_score) " +
+      "from t_game_detail " +
+      "group by hop(game_time, interval '5' second, interval '10' second), user_id")
 
     table_env
       .toRetractStream[Row](game_score_sum)
