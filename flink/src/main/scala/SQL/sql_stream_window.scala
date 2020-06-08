@@ -34,19 +34,19 @@ object sql_stream_window {
 
     table_env.registerDataStream("t_game_detail", gameStream, 'user_id, 'game_id, 'game_time.rowtime, 'game_score)
     //滚动窗口
-//    val game_score_sum: Table = table_env
-//      .sqlQuery("select user_id, " +
-//        "sum(game_score) " +
-//        "from t_game_detail " +
-//        "group by tumble(game_time, interval '5' second), user_id")
+    //    val game_score_sum: Table = table_env
+    //      .sqlQuery("select user_id, " +
+    //        "sum(game_score) " +
+    //        "from t_game_detail " +
+    //        "group by tumble(game_time, interval '5' second), user_id")
 
-//    滑动窗口
-//    val game_score_sum: Table = table_env.sqlQuery("select user_id, " +
-//      "sum(game_score) " +
-//      "from t_game_detail " +
-//      "group by hop(game_time, interval '5' second, interval '10' second), user_id")
+    //    滑动窗口
+    //    val game_score_sum: Table = table_env.sqlQuery("select user_id, " +
+    //      "sum(game_score) " +
+    //      "from t_game_detail " +
+    //      "group by hop(game_time, interval '5' second, interval '10' second), user_id")
 
-//  打印窗口
+    //  滑动窗口，打印窗口时间
     val game_score_sum: Table = table_env.sqlQuery("select user_id, " +
       "hop_start(game_time, interval '5' second, interval '10' second)," +
       "hop_end(game_time, interval '5' second, interval '10' second)," +
