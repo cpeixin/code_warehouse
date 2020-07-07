@@ -29,9 +29,5 @@ object flinkCEP_illegal_user {
       .next("")
       .where((_: UserBehavior).ip_adress.startsWith(""))
       .within(Time.seconds(60))
-
-
-
-
   }
 }
