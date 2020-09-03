@@ -90,7 +90,7 @@ object window_function_aggregate {
 
 
     original_format_stream
-      .keyBy((_: ((String, String), Int))._1)
+      .keyBy((x: ((String, String), Int)) =>x._1)
       .window(SlidingProcessingTimeWindows.of(Time.seconds(10),Time.seconds(5)))
       .aggregate(new aggregate_channel_devices, new channel_devices_windowFuction)
       .print("channel_device")
