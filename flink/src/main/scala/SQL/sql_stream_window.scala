@@ -32,7 +32,7 @@ object sql_stream_window {
 
     import org.apache.flink.table.api.scala._
 
-    table_env.registerDataStream("t_game_detail", gameStream, 'user_id, 'game_id, 'game_time.rowtime, 'game_score)
+    table_env.createTemporaryView("t_game_detail", gameStream, 'user_id, 'game_id, 'game_time.rowtime, 'game_score)
     //滚动窗口
     //    val game_score_sum: Table = table_env
     //      .sqlQuery("select user_id, " +
