@@ -37,7 +37,7 @@ object window_func {
 
 
     val student_grade_df: DataFrame = spark.read.json("hdfs://localhost:8020/data/student_grade.json")
-
+    student_grade_df.join()
     // 计算需求：每个学生单科最佳成绩以及成绩所在的年份
 
     // 定义窗口函数
