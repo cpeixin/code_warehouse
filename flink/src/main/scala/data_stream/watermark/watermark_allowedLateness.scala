@@ -21,13 +21,10 @@ object watermark_allowedLateness {
     val env: StreamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment
 
     env.setParallelism(1)
-
     env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
-
     env.getConfig.setAutoWatermarkInterval(100L) //watermark周期
 
     val socketStream: DataStream[String] = env.socketTextStream("localhost", 8888)
-
     val gameStream: DataStream[GameData] = socketStream.map((line: String) => {
       val array_data: Array[String] = line.split(",")
       GameData(array_data(0), array_data(1), array_data(2).toLong, array_data(3).toInt)
@@ -45,7 +42,7 @@ object watermark_allowedLateness {
     val windowStream: DataStream[(String, List[Int])] = gameStream
       .keyBy((_: GameData).user_id)
       .timeWindow(Time.seconds(10), Time.seconds(5))
-      //      数据延迟超过2秒，交给allowedLateness来处理
+      //数据延迟超过2秒，交给allowedLateness来处理
       .allowedLateness(Time.seconds(20))
       .sideOutputLateData(gameLateData)
       //  接下里会发生三种情况：
