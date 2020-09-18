@@ -74,6 +74,7 @@ object datastream_2_es {
     //批次插入
     esSinkBuilder.setBulkFlushMaxActions(2)
     esSinkBuilder.setBulkFlushInterval(1000L)
+    esSinkBuilder.setBulkFlushBackoffRetries(3)
     // 自定义异常处理
     esSinkBuilder.setFailureHandler(new ActionRequestFailureHandler {
       override def onFailure(actionRequest: ActionRequest, throwable: Throwable, i: Int, requestIndexer: RequestIndexer): Unit = {

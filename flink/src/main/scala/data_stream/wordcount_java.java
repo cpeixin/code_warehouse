@@ -19,6 +19,7 @@ public class wordcount_java {
         // 监听本地9000端口
         DataStream<String> text = env.socketTextStream("127.0.0.1", 9000, "\n");
 
+
         // 将接收的数据进行拆分，分组，窗口计算并且进行聚合输出
         DataStream<WordWithCount> windowCounts = text
                 .flatMap(new FlatMapFunction<String, WordWithCount>() {
