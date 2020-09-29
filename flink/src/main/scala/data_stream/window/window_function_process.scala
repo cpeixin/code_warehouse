@@ -74,7 +74,6 @@ object window_function_process {
 
 
     env.execute("process function stream")
-
   }
 
 
