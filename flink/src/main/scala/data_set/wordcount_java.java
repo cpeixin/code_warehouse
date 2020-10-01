@@ -3,44 +3,36 @@ package data_set;
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.api.java.operators.AggregateOperator;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.util.Collector;
 
 public class wordcount_java {
     public static void main(String[] args) throws Exception {
-
-        // 创建Flink运行的上下文环境
+        // 创建Flink运行的上下文环境
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
-
-        // 创建DataSet，这里我们的输入是一行一行的文本
-        DataSet<String> text = env.fromElements(
-                "Flink Spark Storm",
-                "Flink Flink Flink",
-                "Spark Spark Spark",
-                "Storm Storm Storm"
+        // 创建数据集
+        DataSet<String> data = env.fromElements(
+                "Flink Spark Storm", "Flink Flink Flink", "Spark Spark Spark", "Storm Storm Storm"
         );
-        // 通过Flink内置的转换函数进行计算
-        DataSet<Tuple2<String, Integer>> counts =
-                text.flatMap(new LineSplitter())
-                        .groupBy(0)
-                        .sum(1);
-        //结果打印
-        counts.printToErr();
+
+        AggregateOperator<Tuple2<String, Integer>> sum = data.flatMap(new LineSplitter()).groupBy(0).sum(1);
+
+        sum.printToErr();
 
     }
 
-    public static final class LineSplitter implements FlatMapFunction<String, Tuple2<String, Integer>> {
 
+    public static class LineSplitter implements FlatMapFunction<String, Tuple2<String, Integer>>{
         @Override
-        public void flatMap(String value, Collector<Tuple2<String, Integer>> out) {
-            // 将文本分割
-            String[] tokens = value.toLowerCase().split("\\W+");
-
-            for (String token : tokens) {
-                if (token.length() > 0) {
-                    out.collect(new Tuple2<String, Integer>(token, 1));
-                }
-            }
+        public void flatMap(String s, Collector<Tuple2<String, Integer>> collector) throws Exception {
+               String[] values = s.split("\\W+");
+               for (String value: values){
+                   if (value.length() > 0){
+                       collector.collect(new Tuple2<String, Integer>(value, 1));
+                   }
+               }
         }
     }
+
 }
