@@ -30,7 +30,7 @@ public class wordcount_java {
                         }
                     }
                 })
-                .keyBy("word")
+                .keyBy(value -> value.word)
                 .timeWindow(Time.seconds(5), Time.seconds(1))
                 .reduce(new ReduceFunction<WordWithCount>() {
                     @Override

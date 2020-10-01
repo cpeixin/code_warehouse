@@ -5,9 +5,10 @@ import org.apache.flink.streaming.api.functions.timestamps.BoundedOutOfOrderness
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
 import org.apache.flink.streaming.api.windowing.time.Time
 import org.apache.flink.table.api.{EnvironmentSettings, Slide, Table, Tumble}
-import org.apache.flink.table.api.scala.StreamTableEnvironment
+import org.apache.flink.table.api._
 import org.apache.flink.types.Row
 import org.apache.flink.streaming.api.scala._
+import org.apache.flink.table.api.bridge.scala.StreamTableEnvironment
 
 
 object table_stream_window {
@@ -32,7 +33,6 @@ object table_stream_window {
     })
 
     //分组聚合操作
-    import org.apache.flink.table.api.scala._
 
 
     //创建动态Table,并且指定event time

@@ -3,7 +3,8 @@ package SQL;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.table.api.Table;
-import org.apache.flink.table.api.java.BatchTableEnvironment;
+
+import org.apache.flink.table.api.bridge.java.BatchTableEnvironment;
 
 import java.util.ArrayList;
 
@@ -28,7 +29,7 @@ public class wordcount_java {
         DataSet<WC> input = fbEnv.fromCollection(list);
 
         //DataSet 转sql, 指定字段名
-        Table table = fbTableEnv.fromDataSet(input, "word,frequency");
+        Table table = fbTableEnv.fromDataSet(input);
         table.printSchema();
 
         //注册为一个表

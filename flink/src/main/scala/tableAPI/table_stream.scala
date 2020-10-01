@@ -2,8 +2,9 @@ package tableAPI
 
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment}
 import org.apache.flink.table.api.{EnvironmentSettings, Table}
-import org.apache.flink.table.api.scala.StreamTableEnvironment
+import org.apache.flink.table.api._
 import org.apache.flink.streaming.api.scala._
+import org.apache.flink.table.api.bridge.scala.StreamTableEnvironment
 import org.apache.flink.types.Row
 
 object table_stream {
@@ -22,8 +23,6 @@ object table_stream {
       GameData(array_data(0), array_data(1), array_data(2).toLong, array_data(3).toInt)
     })
 
-
-
     //  打印表结构
     //    table_env.registerDataStream("t_game_detail", gameStream)
     //    val t_game_detail: Table = table_env.scan("t_game_detail")
@@ -38,7 +37,7 @@ object table_stream {
     //val t_game_detail: Table = table_env.fromDataStream(gameStream).filter("game_score>500")
 
     //分组聚合操作
-    import org.apache.flink.table.api.scala._
+    import org.apache.flink.table.api._
     val t_game_detail: Table = table_env.fromDataStream(gameStream).groupBy('user_id).select('user_id, 'user_id.count as 'count)//.select('user_id, 'game_score.sum as 'sum_game_score)
       //.groupBy('user_id).select('user_id, 'game_score.avg as 'avg_game_score)
 
