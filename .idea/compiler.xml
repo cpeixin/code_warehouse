@@ -20,7 +20,7 @@
     <bytecodeTargetLevel target="1.8">
       <module name="code_warehouse" target="1.5" />
       <module name="flink" target="1.8" />
-      <module name="java" target="1.6" />
+      <module name="java" target="1.8" />
       <module name="leetcode" target="1.5" />
       <module name="scala" target="1.5" />
       <module name="spark_core" target="1.5" />
