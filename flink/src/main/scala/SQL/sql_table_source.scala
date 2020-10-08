@@ -5,7 +5,7 @@ import org.apache.flink.api.scala.typeutils.Types
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 import org.apache.flink.table.api.{DataTypes, EnvironmentSettings, Table}
 import org.apache.flink.table.api._
-import org.apache.flink.table.api.bridge.scala.StreamTableEnvironment
+import org.apache.flink.table.api.scala.StreamTableEnvironment
 import org.apache.flink.table.sources.CsvTableSource
 import org.apache.flink.types.Row
 

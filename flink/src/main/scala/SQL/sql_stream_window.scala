@@ -4,7 +4,7 @@ import org.apache.flink.streaming.api.TimeCharacteristic
 import org.apache.flink.streaming.api.functions.timestamps.BoundedOutOfOrdernessTimestampExtractor
 import org.apache.flink.streaming.api.scala.{DataStream, StreamExecutionEnvironment, _}
 import org.apache.flink.streaming.api.windowing.time.Time
-import org.apache.flink.table.api.bridge.scala.StreamTableEnvironment
+import org.apache.flink.table.api.scala.StreamTableEnvironment
 import org.apache.flink.table.api._
 import org.apache.flink.table.api.{EnvironmentSettings, Table, Tumble}
 import org.apache.flink.types.Row
@@ -32,7 +32,7 @@ object sql_stream_window {
     })
 
 
-    table_env.createTemporaryView("t_game_detail", gameStream, 'user_id, 'game_id, 'game_time.rowtime, 'game_score)
+    table_env.createTemporaryView("t_game_detail", gameStream)
     //滚动窗口
     //    val game_score_sum: Table = table_env
     //      .sqlQuery("select user_id, " +
