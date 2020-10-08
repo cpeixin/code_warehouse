@@ -17,7 +17,7 @@
         <spark.version>2.3.1</spark.version>
         <hadoop.version>2.7.6</hadoop.version>
         <hbase.version>1.4.3</hbase.version>
-        <flink.version>1.11.0</flink.version>
+        <flink.version>1.10.0</flink.version>
         <encoding>UTF-8</encoding>
     </properties>
     <dependencies>
@@ -29,6 +29,11 @@
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-core</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-json</artifactId>
             <version>${flink.version}</version>
         </dependency>
         <dependency>
