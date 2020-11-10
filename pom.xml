@@ -20,6 +20,7 @@
         <module>flink</module>
         <module>java</module>
         <module>leetcode</module>
+        <module>spark16</module>
     </modules>
 
 
