@@ -1,0 +1,33 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+target/
+将删除 project-1-pv-uv-computing/src/test/
+将删除 project-1-pv-uv-computing/target/
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+将删除 project-1-pv-uv-computing/target/classes/websocket/
+将删除 project-1-pv-uv-computing/target/generated-sources/
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen

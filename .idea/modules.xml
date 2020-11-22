@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/flink/flink.iml" filepath="$PROJECT_DIR$/flink/flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-1-pv-uv-computing/project-1-pv-uv-computing.iml" filepath="$PROJECT_DIR$/project-1-pv-uv-computing/project-1-pv-uv-computing.iml" />
       <module fileurl="file://$PROJECT_DIR$/scala/scala.iml" filepath="$PROJECT_DIR$/scala/scala.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark16/spark16.iml" filepath="$PROJECT_DIR$/spark16/spark16.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark_core/spark_core.iml" filepath="$PROJECT_DIR$/spark_core/spark_core.iml" />

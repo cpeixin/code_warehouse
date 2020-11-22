@@ -21,6 +21,7 @@
         <module>java</module>
         <module>leetcode</module>
         <module>spark16</module>
+        <module>project-1-pv-uv-computing</module>
     </modules>
 
 

@@ -7,14 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flink" />
+        <module name="project-1-pv-uv-computing" />
+        <module name="spark_streaming" />
         <module name="flink_stream" />
         <module name="java" />
-        <module name="leetcode" />
         <module name="scala" />
         <module name="spark16" />
         <module name="spark_core" />
+        <module name="leetcode" />
         <module name="spark_sql" />
-        <module name="spark_streaming" />
         <module name="structured_streaming" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="flink" target="1.8" />
       <module name="java" target="1.8" />
       <module name="leetcode" target="1.5" />
+      <module name="project-1-pv-uv-computing" target="8" />
       <module name="scala" target="1.5" />
       <module name="spark16" target="1.5" />
       <module name="spark_core" target="1.5" />
