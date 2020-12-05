@@ -1,0 +1,5 @@
+package pvuv
+
+object KafkaProducer {
+
+}
