@@ -65,8 +65,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_11.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_73.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_8_1.xml" afterDir="false" />
@@ -74,11 +72,8 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_21.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_reflectasm_shaded_1_07.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_8_11.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_8_11.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_11.xml" afterDir="false" />
@@ -89,7 +84,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_8_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_22_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" afterDir="false" />
@@ -106,7 +100,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_16_SNAPSHOT.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_2.xml" afterDir="false" />
@@ -117,15 +110,11 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_7_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_razorvine_pyrolite_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_py4j_py4j_0_9.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_calcite_avatica_avatica_core_1_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_4_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_derby_derby_10_10_2_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_10_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_11_0.xml" afterDir="false" />
@@ -133,7 +122,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_cep_scala_2_11_1_10_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_10_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients___scala_binary_version__1_10_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_scala_2_11_1_10_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_elasticsearch6_2_11_1_10_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_elasticsearch7_2_11_1_10_0.xml" afterDir="false" />
@@ -190,16 +178,11 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_test_utils_junit_1_10_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_10_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_4_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_4_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_4_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_11.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_2_2_0.xml" afterDir="false" />
@@ -252,7 +235,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libfb303_0_9_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_9_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_8.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_2_7_6.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_2_7_8.xml" afterDir="false" />
@@ -279,7 +261,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_5_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_1_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_10_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_5.xml" afterDir="false" />
@@ -288,7 +269,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_10.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_10.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_10.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spark_project_hive_hive_cli_1_2_1_spark.xml" afterDir="false" />
@@ -299,78 +279,98 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tachyonproject_tachyon_underfs_local_0_8_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tachyonproject_tachyon_underfs_s3_0_8_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_uncommons_maths_uncommons_maths_1_2_2a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/NodeJs-WebSocket安装运行.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/.nycrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/buffer-util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/event-target.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/extension.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/permessage-deflate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/receiver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/sender.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/stream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/websocket-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/websocket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/resources/websocket/webSocket.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/scala/data_stream/source_sink/datastream_2_es_1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/project-1-pv-uv-computing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/KafkaMessageProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/PVAndUVExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/UrlVisitBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/UserBehaviorEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/UserBehaviorEventSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/WebSocketClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/WebsocketSink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/NodeJs-WebSocket安装运行.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/async-limiter/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/async-limiter/.nycrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/async-limiter/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/async-limiter/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/async-limiter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/async-limiter/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/async-limiter/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/lib/buffer-util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/lib/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/lib/event-target.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/lib/extension.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/lib/permessage-deflate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/lib/receiver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/lib/sender.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/lib/stream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/lib/validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/lib/websocket-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/lib/websocket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/node_modules/ws/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources/websocket/webSocket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/scala/pvuv/KafkaProducer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/scala/pvuv/PvUvProcess.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_12_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_22_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_re2j_re2j_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_3_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_configuration2_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_3_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_3_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_htrace_htrace_core4_4_1_0_incubating.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerb_admin_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerb_client_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerb_common_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerb_core_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerb_crypto_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerb_identity_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerb_server_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerb_simplekdc_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerb_util_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerby_asn1_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerby_config_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerby_pkix_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerby_util_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_kerby_xdr_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kerby_token_provider_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_3_24_v20180605.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink/flink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/flink.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/NodeJs-WebSocket安装运行.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/.nycrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/async-limiter/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/buffer-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/event-target.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/extension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/permessage-deflate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/receiver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/sender.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/websocket-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/lib/websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/node_modules/ws/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/resources/websocket/webSocket.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/data_stream/PV_UV/KafkaConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/data_stream/PV_UV/MyFlatMapFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/data_stream/PV_UV/MyProcessAllWindowFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/data_stream/PV_UV/MyProcessWindowFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/data_stream/PV_UV/UserActionFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/data_stream/PV_UV/UserActionProcessFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/data_stream/PV_UV/UserClick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/PVAndUVExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/PVAndUVExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scala/scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scala/scala.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark16/spark16.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark16/spark16.iml" afterDir="false" />
     </list>
@@ -620,6 +620,14 @@
       <option name="presentableId" value="Default" />
       <updated>1579445008661</updated>
     </task>
+    <task id="LOCAL-00001" summary="flink pvuv">
+      <created>1606013855036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606013855036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -674,6 +682,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="flink pvuv" />
+    <option name="LAST_COMMIT_MESSAGE" value="flink pvuv" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="106" key="#Project_Structure" timestamp="1605940359143">
@@ -684,42 +694,42 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605956920922" />
-    <state x="345" y="102" key="CommitChangelistDialog2" timestamp="1606013604012">
+    <state x="345" y="102" key="CommitChangelistDialog2" timestamp="1606013854573">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="345" y="102" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606013604012" />
-    <state width="1638" height="403" key="GridCell.Tab.0.bottom" timestamp="1606013351854">
+    <state x="345" y="102" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606013854573" />
+    <state width="1638" height="362" key="GridCell.Tab.0.bottom" timestamp="1606230685162">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="403" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606013351854" />
-    <state width="1638" height="403" key="GridCell.Tab.0.center" timestamp="1606013351853">
+    <state width="1638" height="362" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685162" />
+    <state width="1638" height="362" key="GridCell.Tab.0.center" timestamp="1606230685161">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="403" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606013351853" />
-    <state width="1638" height="403" key="GridCell.Tab.0.left" timestamp="1606013351853">
+    <state width="1638" height="362" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685161" />
+    <state width="1638" height="362" key="GridCell.Tab.0.left" timestamp="1606230685160">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="403" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606013351853" />
-    <state width="1638" height="403" key="GridCell.Tab.0.right" timestamp="1606013351854">
+    <state width="1638" height="362" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685160" />
+    <state width="1638" height="362" key="GridCell.Tab.0.right" timestamp="1606230685161">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="403" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606013351854" />
-    <state width="1638" height="362" key="GridCell.Tab.1.bottom" timestamp="1605976091302">
+    <state width="1638" height="362" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685161" />
+    <state width="1638" height="362" key="GridCell.Tab.1.bottom" timestamp="1606230685163">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605976091302" />
-    <state width="1638" height="362" key="GridCell.Tab.1.center" timestamp="1605976091301">
+    <state width="1638" height="362" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685163" />
+    <state width="1638" height="362" key="GridCell.Tab.1.center" timestamp="1606230685163">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605976091301" />
-    <state width="1638" height="362" key="GridCell.Tab.1.left" timestamp="1605976091300">
+    <state width="1638" height="362" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685163" />
+    <state width="1638" height="362" key="GridCell.Tab.1.left" timestamp="1606230685162">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605976091300" />
-    <state width="1638" height="362" key="GridCell.Tab.1.right" timestamp="1605976091301">
+    <state width="1638" height="362" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685162" />
+    <state width="1638" height="362" key="GridCell.Tab.1.right" timestamp="1606230685163">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605976091301" />
+    <state width="1638" height="362" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685163" />
     <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1605940382859">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -728,6 +738,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605935183472" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606013866667">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606013866667" />
     <state x="627" y="310" key="chooseDestDirectoryDialog" timestamp="1605935899970">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

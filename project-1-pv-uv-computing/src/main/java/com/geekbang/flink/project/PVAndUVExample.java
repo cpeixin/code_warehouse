@@ -96,8 +96,6 @@ public class PVAndUVExample {
                     indexer.add(createIndexRequest(element, parameterTool));
                 });
 
-//        esSinkBuilder.setFailureHandler(
-//                new CustomFailureHandler(parameterTool.getRequired("pvuv")));
         esSinkBuilder.setFailureHandler(
                 new CustomFailureHandler(parameterTool.get("pvuv", "pvuv-20201122")));
 
