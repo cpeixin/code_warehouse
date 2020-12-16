@@ -64,8 +64,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/leetcode/SetZerosCase.java" afterDir="false" />
+    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="leetcode zero set">
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/base/ArrayIsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/base/supermarket/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/base/supermarket/GoLittleSuperMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/base/supermarket/LittleSuperMarketAppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/base/supermarket/Merchandise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_16_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_16_SNAPSHOT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="30acf68b-61b5-4070-9173-1952c133f3a8" name="setup code warehouse" comment="" />
@@ -161,7 +166,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetZerosCase">
+  <component name="RunManager" selected="Application.GoLittleSuperMarket">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -169,13 +174,41 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="KafkaMessageProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekbang.flink.project.KafkaMessageProducer" />
-      <module name="project-1-pv-uv-computing" />
+    <configuration name="ArrayIsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.ArrayIsClass" />
+      <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbang.flink.project.*" />
+          <option name="PATTERN" value="base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoLittleSuperMarket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.supermarket.GoLittleSuperMarket" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.supermarket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.MathCalc" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,34 +246,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="datastream_2_hbase" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="data_stream.datastream_2_hbase" />
-      <module name="flink" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data_stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hbase_test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="data_set.hbase_test" />
-      <module name="flink" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data_set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -284,19 +289,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.datastream_2_hbase" />
-      <item itemvalue="Application.hbase_test" />
-      <item itemvalue="Application.KafkaMessageProducer" />
       <item itemvalue="Application.PVAndUVExample" />
       <item itemvalue="Application.SetZerosCase" />
+      <item itemvalue="Application.MathCalc" />
+      <item itemvalue="Application.ArrayIsClass" />
+      <item itemvalue="Application.GoLittleSuperMarket" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoLittleSuperMarket" />
+        <item itemvalue="Application.ArrayIsClass" />
+        <item itemvalue="Application.MathCalc" />
         <item itemvalue="Application.SetZerosCase" />
         <item itemvalue="Application.PVAndUVExample" />
-        <item itemvalue="Application.KafkaMessageProducer" />
-        <item itemvalue="Application.hbase_test" />
-        <item itemvalue="Application.datastream_2_hbase" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606013855036</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="leetcode zero set">
+      <created>1607840214331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607840214331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -377,7 +389,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="flink pvuv" />
-    <option name="LAST_COMMIT_MESSAGE" value="flink pvuv" />
+    <MESSAGE value="leetcode zero set" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode zero set" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="106" key="#Project_Structure" timestamp="1605940359143">
@@ -388,42 +401,51 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605956920922" />
-    <state x="345" y="102" key="CommitChangelistDialog2" timestamp="1606013854573">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="345" y="96" key="CommitChangelistDialog2" timestamp="1607840214053">
+      <screen x="0" y="0" width="1680" height="986" />
     </state>
     <state x="345" y="102" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606013854573" />
-    <state width="1638" height="362" key="GridCell.Tab.0.bottom" timestamp="1606230685162">
+    <state x="345" y="96" key="CommitChangelistDialog2/0.0.1680.986@0.0.1680.986" timestamp="1607840214053" />
+    <state width="1638" height="403" key="GridCell.Tab.0.bottom" timestamp="1608047010405">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685162" />
-    <state width="1638" height="362" key="GridCell.Tab.0.center" timestamp="1606230685161">
+    <state width="1638" height="403" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608047010405" />
+    <state width="1638" height="327" key="GridCell.Tab.0.bottom/0.0.1680.986@0.0.1680.986" timestamp="1607840383940" />
+    <state width="1638" height="403" key="GridCell.Tab.0.center" timestamp="1608047010404">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685161" />
-    <state width="1638" height="362" key="GridCell.Tab.0.left" timestamp="1606230685160">
+    <state width="1638" height="403" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608047010404" />
+    <state width="1638" height="327" key="GridCell.Tab.0.center/0.0.1680.986@0.0.1680.986" timestamp="1607840383939" />
+    <state width="1638" height="403" key="GridCell.Tab.0.left" timestamp="1608047010403">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685160" />
-    <state width="1638" height="362" key="GridCell.Tab.0.right" timestamp="1606230685161">
+    <state width="1638" height="403" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608047010403" />
+    <state width="1638" height="327" key="GridCell.Tab.0.left/0.0.1680.986@0.0.1680.986" timestamp="1607840383938" />
+    <state width="1638" height="403" key="GridCell.Tab.0.right" timestamp="1608047010405">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685161" />
-    <state width="1638" height="362" key="GridCell.Tab.1.bottom" timestamp="1606230685163">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="403" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608047010405" />
+    <state width="1638" height="327" key="GridCell.Tab.0.right/0.0.1680.986@0.0.1680.986" timestamp="1607840383939" />
+    <state width="1638" height="327" key="GridCell.Tab.1.bottom" timestamp="1607840383942">
+      <screen x="0" y="0" width="1680" height="986" />
     </state>
     <state width="1638" height="362" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685163" />
-    <state width="1638" height="362" key="GridCell.Tab.1.center" timestamp="1606230685163">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="327" key="GridCell.Tab.1.bottom/0.0.1680.986@0.0.1680.986" timestamp="1607840383942" />
+    <state width="1638" height="327" key="GridCell.Tab.1.center" timestamp="1607840383941">
+      <screen x="0" y="0" width="1680" height="986" />
     </state>
     <state width="1638" height="362" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685163" />
-    <state width="1638" height="362" key="GridCell.Tab.1.left" timestamp="1606230685162">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="327" key="GridCell.Tab.1.center/0.0.1680.986@0.0.1680.986" timestamp="1607840383941" />
+    <state width="1638" height="327" key="GridCell.Tab.1.left" timestamp="1607840383941">
+      <screen x="0" y="0" width="1680" height="986" />
     </state>
     <state width="1638" height="362" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685162" />
-    <state width="1638" height="362" key="GridCell.Tab.1.right" timestamp="1606230685163">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="327" key="GridCell.Tab.1.left/0.0.1680.986@0.0.1680.986" timestamp="1607840383941" />
+    <state width="1638" height="327" key="GridCell.Tab.1.right" timestamp="1607840383942">
+      <screen x="0" y="0" width="1680" height="986" />
     </state>
     <state width="1638" height="362" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685163" />
+    <state width="1638" height="327" key="GridCell.Tab.1.right/0.0.1680.986@0.0.1680.986" timestamp="1607840383942" />
     <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1605940382859">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -432,10 +454,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605935183472" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606013866667">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="440" y="249" key="Vcs.Push.Dialog.v2" timestamp="1607840223481">
+      <screen x="0" y="0" width="1680" height="986" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606013866667" />
+    <state x="440" y="249" key="Vcs.Push.Dialog.v2/0.0.1680.986@0.0.1680.986" timestamp="1607840223481" />
     <state x="627" y="310" key="chooseDestDirectoryDialog" timestamp="1605935899970">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
