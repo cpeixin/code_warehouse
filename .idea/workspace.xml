@@ -65,6 +65,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="supermarket">
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/base/MerchandiseV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_01/Merchandise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_01/MerchandiseUsingVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_01/MerchandiseUsingVariableEample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_02/Merchandise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_02/SuperMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_03/Merchandise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_03/ReferenceAndPrimaryDataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_04/ClassInstanceAndRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_04/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_04/Merchandise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_04/Merchandise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_05/ArrayIsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_05/Merchandise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_05/RefArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_06/CheckBeforeUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_06/Merchandise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_06/RefAndNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_07/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_07/Mainboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_07/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_07/MyPhoneMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_07/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_07/PhoneMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_07/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_07/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_08/com/phone/MyPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_08/com/phone/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_08/com/phone/PhoneMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_08/com/phone/parts/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_08/com/phone/parts/Mainboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_08/com/phone/parts/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_08/com/phone/parts/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_08/com/phone/parts/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_08/com/phone/parts/TestUseMainboard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="30acf68b-61b5-4070-9173-1952c133f3a8" name="setup code warehouse" comment="" />
@@ -128,22 +163,22 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="402" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/ com/geekbang/flink/project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java/src/main/java/geek/two_08" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flink/src/main/scala/data_stream" />
+      <recent name="$PROJECT_DIR$/spark_sql/src/main/scala/read" />
+      <recent name="$PROJECT_DIR$/spark_core/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spark_core/src/main/scala/spark_sql" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/ com/geekbang/flink/project" />
-      <recent name="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java" />
-      <recent name="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/resources" />
-      <recent name="$PROJECT_DIR$/flink/src/main/resources" />
-      <recent name="$PROJECT_DIR$/flink/src/main/scala/project_pvuv" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="data_stream.source_sink" />
@@ -152,15 +187,15 @@
       <recent name="rdd" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/flink/src/main/scala/data_stream" />
-      <recent name="$PROJECT_DIR$/spark_sql/src/main/scala/read" />
-      <recent name="$PROJECT_DIR$/spark_core/src/main/resources" />
-      <recent name="$PROJECT_DIR$/spark_core/src/main/scala/spark_sql" />
-      <recent name="$PROJECT_DIR$/data" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_08" />
+      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_07" />
+      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_06" />
+      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_05" />
+      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoLittleSuperMarket">
+  <component name="RunManager" selected="Application.TestUseMainboard">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -168,13 +203,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="ArrayIsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.ArrayIsClass" />
+    <configuration name="CheckBeforeUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geek.two_06.CheckBeforeUse" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.*" />
+          <option name="PATTERN" value="geek.two_06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,13 +217,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoLittleSuperMarket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.supermarket.GoLittleSuperMarket" />
+    <configuration name="PhoneMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geek.two_07.PhoneMaker" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.supermarket.*" />
+          <option name="PATTERN" value="geek.two_07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,13 +231,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.MathCalc" />
+    <configuration name="RefAndNull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geek.two_06.RefAndNull" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="base.*" />
+          <option name="PATTERN" value="geek.two_06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,13 +245,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PVAndUVExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekbang.flink.project.PVAndUVExample" />
-      <module name="project-1-pv-uv-computing" />
+    <configuration name="RefArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geek.two_05.RefArray" />
+      <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geekbang.flink.project.*" />
+          <option name="PATTERN" value="geek.two_05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,13 +259,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetZerosCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.SetZerosCase" />
+    <configuration name="TestUseMainboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geek.two_08.com.phone.parts.TestUseMainboard" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="geek.two_08.com.phone.parts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,19 +318,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PVAndUVExample" />
-      <item itemvalue="Application.SetZerosCase" />
-      <item itemvalue="Application.MathCalc" />
-      <item itemvalue="Application.ArrayIsClass" />
-      <item itemvalue="Application.GoLittleSuperMarket" />
+      <item itemvalue="Application.RefArray" />
+      <item itemvalue="Application.CheckBeforeUse" />
+      <item itemvalue="Application.RefAndNull" />
+      <item itemvalue="Application.PhoneMaker" />
+      <item itemvalue="Application.TestUseMainboard" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GoLittleSuperMarket" />
-        <item itemvalue="Application.ArrayIsClass" />
-        <item itemvalue="Application.MathCalc" />
-        <item itemvalue="Application.SetZerosCase" />
-        <item itemvalue="Application.PVAndUVExample" />
+        <item itemvalue="Application.TestUseMainboard" />
+        <item itemvalue="Application.PhoneMaker" />
+        <item itemvalue="Application.RefAndNull" />
+        <item itemvalue="Application.CheckBeforeUse" />
+        <item itemvalue="Application.RefArray" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608126849907</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="supermarket">
+      <created>1608478834454</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608478834454</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -403,30 +445,30 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605956920922" />
-    <state x="345" y="102" key="CommitChangelistDialog2" timestamp="1608126849587">
+    <state x="345" y="102" key="CommitChangelistDialog2" timestamp="1608478834152">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="345" y="102" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1608126849587" />
+    <state x="345" y="102" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1608478834152" />
     <state x="345" y="96" key="CommitChangelistDialog2/0.0.1680.986@0.0.1680.986" timestamp="1607840214053" />
-    <state width="1638" height="403" key="GridCell.Tab.0.bottom" timestamp="1608047010405">
+    <state width="1638" height="403" key="GridCell.Tab.0.bottom" timestamp="1608739222034">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="403" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608047010405" />
+    <state width="1638" height="403" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608739222034" />
     <state width="1638" height="327" key="GridCell.Tab.0.bottom/0.0.1680.986@0.0.1680.986" timestamp="1607840383940" />
-    <state width="1638" height="403" key="GridCell.Tab.0.center" timestamp="1608047010404">
+    <state width="1638" height="403" key="GridCell.Tab.0.center" timestamp="1608739222032">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="403" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608047010404" />
+    <state width="1638" height="403" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608739222032" />
     <state width="1638" height="327" key="GridCell.Tab.0.center/0.0.1680.986@0.0.1680.986" timestamp="1607840383939" />
-    <state width="1638" height="403" key="GridCell.Tab.0.left" timestamp="1608047010403">
+    <state width="1638" height="403" key="GridCell.Tab.0.left" timestamp="1608739222031">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="403" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608047010403" />
+    <state width="1638" height="403" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608739222031" />
     <state width="1638" height="327" key="GridCell.Tab.0.left/0.0.1680.986@0.0.1680.986" timestamp="1607840383938" />
-    <state width="1638" height="403" key="GridCell.Tab.0.right" timestamp="1608047010405">
+    <state width="1638" height="403" key="GridCell.Tab.0.right" timestamp="1608739222034">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="403" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608047010405" />
+    <state width="1638" height="403" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608739222034" />
     <state width="1638" height="327" key="GridCell.Tab.0.right/0.0.1680.986@0.0.1680.986" timestamp="1607840383939" />
     <state width="1638" height="327" key="GridCell.Tab.1.bottom" timestamp="1607840383942">
       <screen x="0" y="0" width="1680" height="986" />
@@ -456,10 +498,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605935183472" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608126859576">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608478845723">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608126859576" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608478845723" />
     <state x="440" y="249" key="Vcs.Push.Dialog.v2/0.0.1680.986@0.0.1680.986" timestamp="1607840223481" />
     <state x="627" y="310" key="chooseDestDirectoryDialog" timestamp="1605935899970">
       <screen x="0" y="0" width="1680" height="1050" />
