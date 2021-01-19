@@ -56,9 +56,6 @@ object datastream_2_hbase {
         Raw.apply(date_time, keywordList)
       })(createTypeInformation)
 
-
-
-
     val value: DataStreamSink[Raw] = word_stream.addSink(new HBaseSink_v4("t_weibo_keyword_2","cf1")).name("write_2_hbase")
 
     env.execute("Flink Streaming hbase sink")
