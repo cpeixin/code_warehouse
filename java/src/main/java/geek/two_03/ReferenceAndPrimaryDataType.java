@@ -19,6 +19,7 @@ public class ReferenceAndPrimaryDataType {
         // >> TODO 给一个引用赋值，则两者的类型必须一样。m5可以给m1赋值，因为他们类型是一样的
         m1 = m5;
 
+
         System.out.println("m1=" + m1);
         System.out.println("m2=" + m2);
         System.out.println("m3=" + m3);
@@ -38,7 +39,11 @@ public class ReferenceAndPrimaryDataType {
         System.out.println("m5=" + m5);
 
 
-        int a = 999;
+        // 获取对象的内存地址
+        System.out.println("===========内存地址==========");
+        System.out.println(System.identityHashCode(m1));
+        System.out.println(System.identityHashCode(m5));
+
 
     }
 }
