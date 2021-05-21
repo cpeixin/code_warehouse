@@ -17,7 +17,7 @@
         <spark.version>2.3.1</spark.version>
         <hadoop.version>2.7.6</hadoop.version>
         <hbase.version>1.4.3</hbase.version>
-        <flink.version>1.10.0</flink.version>
+        <flink.version>1.10.1</flink.version>
         <encoding>UTF-8</encoding>
     </properties>
     <dependencies>
