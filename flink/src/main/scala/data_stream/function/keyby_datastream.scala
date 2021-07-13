@@ -41,29 +41,29 @@ object keyby_datastream {
 //    })
 
 
-        val resultStream: DataStream[String] = keyWondowStream.apply(new WindowFunction[UserGrade, String, String, TimeWindow] {
-          override def apply(key: String, window: TimeWindow, input: Iterable[UserGrade], out: Collector[String]): Unit = {
-            var gradeList: ListBuffer[Int] = ListBuffer[Int]()
-            for (data <- input){
-              gradeList+=data.grade
-            }
-            print(window.getStart)
-            val result: String = key + "===" + gradeList.toList.sorted.toString
-            out.collect(result)
-          }
-        })
+//        val resultStream: DataStream[String] = keyWondowStream.apply(new WindowFunction[UserGrade, String, String, TimeWindow] {
+//          override def apply(key: String, window: TimeWindow, input: Iterable[UserGrade], out: Collector[String]): Unit = {
+//            var gradeList: ListBuffer[Int] = ListBuffer[Int]()
+//            for (data <- input){
+//              gradeList+=data.grade
+//            }
+//            print(window.getStart)
+//            val result: String = key + "===" + gradeList.toList.sorted.toString
+//            out.collect(result)
+//          }
+//        })
 
 
-//    val resultStream: DataStream[UserGradeList] = keyWondowStream.process(new ProcessWindowFunction[UserGrade, UserGradeList, String, TimeWindow]{
-//      override def process(key: String, context: Context, elements: Iterable[UserGrade], out: Collector[UserGradeList]): Unit = {
-//                var gradeList: ListBuffer[Int] = ListBuffer[Int]()
-//                for (data <- elements) {
-//                  gradeList += data.grade
-//                }
-//
-//                out.collect(UserGradeList(key,gradeList.toList.sorted))
-//      }
-//    })
+    val resultStream: DataStream[UserGradeList] = keyWondowStream.process(new ProcessWindowFunction[UserGrade, UserGradeList, String, TimeWindow]{
+      override def process(key: String, context: Context, elements: Iterable[UserGrade], out: Collector[UserGradeList]): Unit = {
+                var gradeList: ListBuffer[Int] = ListBuffer[Int]()
+                for (data <- elements) {
+                  gradeList += data.grade
+                }
+
+                out.collect(UserGradeList(key,gradeList.toList.sorted))
+      }
+    })
 
     resultStream.print("===")
     env.execute("apply function")

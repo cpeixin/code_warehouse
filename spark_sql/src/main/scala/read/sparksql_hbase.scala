@@ -1,6 +1,6 @@
 package read
 
-import org.apache.spark.sql.execution.datasources.hbase.HBaseTableCatalog
+
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 object sparksql_hbase {
@@ -32,14 +32,14 @@ object sparksql_hbase {
          |}""".stripMargin
 
 
-    // read
-    val df: DataFrame = spark
-      .read
-      .option(HBaseTableCatalog.tableCatalog, catalog)
-      .format("org.apache.spark.sql.execution.datasources.hbase")
-      .load()
-
-    df.show()
+//    // read
+//    val df: DataFrame = spark
+//      .read
+//      .option(HBaseTableCatalog.tableCatalog, catalog)
+//      .format("org.apache.spark.sql.execution.datasources.hbase")
+//      .load()
+//
+//    df.show()
 
   }
 }

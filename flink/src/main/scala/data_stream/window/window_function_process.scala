@@ -71,8 +71,6 @@ object window_function_process {
           out.collect((key, elements.size))
         }
       }).print("processFunctionWindow")
-
-
     env.execute("process function stream")
   }
 

@@ -17,11 +17,11 @@ object spark_use_sql {
       * {"user_name":"haylee","customer_id":12031603,"age":23,"birthday":"1992-08-10","deposit_amount":4000.56,"last_login_time":"2017-03-11 10:55:00"}
       * {"user_name":"vicky","customer_id":12031604,"age":30,"birthday":"2000-03-02","deposit_amount":200.4,"last_login_time":"2017-03-10 09:10:00"}
       */
-    val df: DataFrame = spark.read.json("hdfs://localhost:8020/data/user_data.json")
+    val df: DataFrame = spark.read.json("data/user_data.json")
 
     df.createTempView("t_user")
 
-    spark.sql("select * from t_user").show()
+    val user_df = spark.sql("select * from t_user")
 //    +---+----------+-----------+--------------+-------------------+---------+
 //    |age|  birthday|customer_id|deposit_amount|    last_login_time|user_name|
 //    +---+----------+-----------+--------------+-------------------+---------+
@@ -29,7 +29,22 @@ object spark_use_sql {
 //    | 23|1992-08-10|   12031603|       4000.56|2017-03-11 10:55:00|   haylee|
 //    | 30|2000-03-02|   12031604|         200.4|2017-03-10 09:10:00|    vicky|
 //    +---+----------+-----------+--------------+-------------------+---------+
-    import org.apache.spark.sql.functions._
-    spark.sql("select * from t_user").groupBy("user_name").agg("deposit_amount"->"sum").show()
+
+    user_df.foreachPartition(record=>{
+      record.foreach(x=>{
+        println(x.getAs[String]("age"))
+      })
+    })
+
+    import spark.implicits._
+    val res_df = user_df.mapPartitions(x=>{
+      x.map(ele=>{
+        println(ele.getAs[String]("age"))
+        ele.getAs[Long]("age")
+      })
+    })
+    res_df.show()
+
+
     }
   }

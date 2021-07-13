@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/code_warehouse.iml" filepath="$PROJECT_DIR$/code_warehouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink/flink.iml" filepath="$PROJECT_DIR$/flink/flink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/functionWareHouse/functionWareHouse.iml" filepath="$PROJECT_DIR$/functionWareHouse/functionWareHouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-1-pv-uv-computing/project-1-pv-uv-computing.iml" filepath="$PROJECT_DIR$/project-1-pv-uv-computing/project-1-pv-uv-computing.iml" />

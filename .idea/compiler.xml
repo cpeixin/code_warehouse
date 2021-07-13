@@ -17,11 +17,13 @@
         <module name="leetcode" />
         <module name="spark_sql" />
         <module name="structured_streaming" />
+        <module name="functionWareHouse" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="code_warehouse" target="1.5" />
       <module name="flink" target="1.8" />
+      <module name="functionWareHouse" target="8" />
       <module name="java" target="1.8" />
       <module name="leetcode" target="1.5" />
       <module name="project-1-pv-uv-computing" target="8" />
