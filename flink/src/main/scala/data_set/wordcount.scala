@@ -13,9 +13,6 @@ object wordcount {
     val keyvalue_dataset: DataSet[(String, Int)] = word_dataset.flatMap((_: String).split(" ")).map { word: String =>(word, 1)}
 
     val result: AggregateDataSet[(String, Int)] = keyvalue_dataset.groupBy(0).sum(1)
-
     result.print()
-
   }
-
 }

@@ -64,134 +64,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="java">
-      <change afterPath="$PROJECT_DIR$/functionWareHouse/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functionWareHouse/src/main/java/CheckValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functionWareHouse/src/main/java/Nullable.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functionWareHouse/src/test/java/CheckValueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/MR/HTTP_20130313143750.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/MR/phoneData/FlowBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/MR/phoneData/HTTP_20130313143750.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/MR/phoneData/PhoneNetworkMR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/MR/phoneData/PhoneNetworkMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/MR/phoneData/PhoneNetworkReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/MR/res/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/MR/res/.part-r-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/MR/res/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/MR/res/part-r-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/SPI/TestMyServiceSPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/SPI/TestMyServiceSystemProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/SPI/serviceimpl/MyServiceA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/SPI/serviceimpl/MyServiceB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/SPI/serviceprovider/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/classLoader/ClassLoaderCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/classLoader/CustomClassLoaderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/factory/IRuleConfigParserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_34/com/geekbang/UsePhoneMerchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_34/com/geekbang/supermarket/HuaweiPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_34/com/geekbang/supermarket/LittleSuperMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_34/com/geekbang/supermarket/MerchandiseV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_34/com/geekbang/supermarket/PhoneExtendsMerchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_34/com/geekbang/supermarket/PhoneMerchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_35/com/geekbang/UsePhoneExtendsMerchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_35/com/geekbang/UsePhoneHasAMerchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_35/com/geekbang/supermarket/LittleSuperMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_35/com/geekbang/supermarket/MerchandiseV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_35/com/geekbang/supermarket/PhoneExtendsMerchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_35/com/geekbang/supermarket/PhoneHasAMerchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_36/com/geekbang/UsePhoneExtendsMerchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_36/com/geekbang/supermarket/LittleSuperMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_36/com/geekbang/supermarket/MerchandiseV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_36/com/geekbang/supermarket/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_37/com/geekbang/UsePhoneExtendsMerchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_37/com/geekbang/supermarket/LittleSuperMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_37/com/geekbang/supermarket/MerchandiseV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_37/com/geekbang/supermarket/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_38/com/geekbang/UsePhoneExtendsMerchandise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_38/com/geekbang/supermarket/LittleSuperMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_38/com/geekbang/supermarket/MerchandiseV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_38/com/geekbang/supermarket/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_39/com/geekbang/LittleSuperMarketAppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_39/com/geekbang/ReferenceAssign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_39/com/geekbang/supermarket/LittleSuperMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_39/com/geekbang/supermarket/MerchandiseV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_39/com/geekbang/supermarket/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_39/com/geekbang/supermarket/ShellColorChangePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_40/com/geekbang/PolymorphismAppMainComplex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_40/com/geekbang/PolymorphismAppMainSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_40/com/geekbang/supermarket/LittleSuperMarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_40/com/geekbang/supermarket/MerchandiseV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_40/com/geekbang/supermarket/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_40/com/geekbang/supermarket/ShellColorChangePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/thread/ChangeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/thread/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/thread/CreateThreadApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/thread/DataHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/thread/InterruptThreadAppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/thread/MultiThreadChaos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/thread/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/thread/SingleThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/thread/StopAndSeeThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/thread/ThreadCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/thread/ThreadWaitNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/resources/META-INF/services/SPI.serviceprovider.MyService" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/sprayCase.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_assistedinject_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_univocity_univocity_parsers_2_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_16_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_16_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_unimi_dsi_fastutil_6_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_phoenix_phoenix_core_4_9_0_HBase_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_11_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_11_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_11_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tephra_tephra_api_0_9_0_incubating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tephra_tephra_core_0_9_0_incubating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tephra_tephra_hbase_compat_1_1_0_9_0_incubating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_api_0_6_0_incubating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_common_0_6_0_incubating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_core_0_6_0_incubating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_discovery_api_0_6_0_incubating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_discovery_core_0_6_0_incubating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_twill_twill_zookeeper_0_6_0_incubating.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_all_5_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__sqlline_sqlline_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="memory address">
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/MapCase.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/user_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/user_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/data_stream/function/keyby_datastream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/data_stream/function/keyby_datastream.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/data_stream/watermark/watermark_allowedLateness.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/data_stream/watermark/watermark_allowedLateness.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/data_stream/window/window_function_process.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/data_stream/window/window_function_process.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/src/main/scala/utils/RedisUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/flink/src/main/scala/utils/RedisUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java/java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scala/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink/target/classes/data_set/wordcount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink/target/classes/data_set/wordcount$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/geek/two_03/Merchandise.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/geek/two_03/Merchandise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scala/scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scala/scala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark16/spark16.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark16/spark16.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_core/spark_core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/spark_core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_sql/spark_sql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/spark_sql.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/read/sparksql_hbase.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/read/sparksql_hbase.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/spark_use_sql.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/spark_use_sql.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_streaming/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_streaming/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_streaming/spark_streaming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_streaming/spark_streaming.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_streaming/src/main/scala/streaming/streaming_case.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_streaming/src/main/scala/streaming/streaming_case.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structured_streaming/structured_streaming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/structured_streaming/structured_streaming.iml" afterDir="false" />
     </list>
     <list id="30acf68b-61b5-4070-9173-1952c133f3a8" name="setup code warehouse" comment="" />
     <list id="6f8445af-fe4f-48c4-b21e-aa34c80ca094" name="setup my code warehouse" comment="" />
@@ -210,14 +88,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Package Object" />
-        <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -231,7 +114,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
@@ -248,49 +130,23 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="402" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="402" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="402" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/java/src/main/java/MR" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java/src/main/java/geek/two_24" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/java/src/main/java/MR" />
-      <recent name="$PROJECT_DIR$/java/src/main/java/MR/phoneData" />
-      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_40" />
-      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_39" />
-      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_38" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/functionWareHouse/src/main/java" />
       <recent name="$PROJECT_DIR$/flink/src/main/scala/data_stream" />
       <recent name="$PROJECT_DIR$/spark_sql/src/main/scala/read" />
       <recent name="$PROJECT_DIR$/spark_core/src/main/resources" />
       <recent name="$PROJECT_DIR$/spark_core/src/main/scala/spark_sql" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+      <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -300,8 +156,15 @@
       <recent name="rdd" />
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_24" />
+      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_21" />
+      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_16" />
+      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_09" />
+      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_08" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.PhoneNetworkMR">
+  <component name="RunManager" selected="Application.MapCase">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -309,24 +172,21 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="MapCase" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MapCase" />
+      <module name="scala" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateThreadApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.CreateThreadApp" />
+    <configuration name="PhoneMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geek.two_07.PhoneMaker" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="geek.two_07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,13 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadChaos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.MultiThreadChaos" />
+    <configuration name="ReferenceAndPrimaryDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geek.two_03.ReferenceAndPrimaryDataType" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="geek.two_03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -348,27 +208,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNetworkMR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MR.phoneData.PhoneNetworkMR" />
+    <configuration name="TestUseMainboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geek.two_08.com.phone.parts.TestUseMainboard" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MR.phoneData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadCase" />
-      <module name="java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="geek.two_08.com.phone.parts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,13 +228,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="phoneMR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MR.phoneData.phoneMR" />
-      <module name="java" />
+    <configuration name="wordcount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="data_set.wordcount" />
+      <module name="flink" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MR.phoneData.*" />
+          <option name="PATTERN" value="data_set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,19 +281,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadCase" />
-      <item itemvalue="Application.MultiThreadChaos" />
-      <item itemvalue="Application.CreateThreadApp" />
-      <item itemvalue="Application.phoneMR" />
-      <item itemvalue="Application.PhoneNetworkMR" />
+      <item itemvalue="Application.PhoneMaker" />
+      <item itemvalue="Application.TestUseMainboard" />
+      <item itemvalue="Application.wordcount" />
+      <item itemvalue="Application.ReferenceAndPrimaryDataType" />
+      <item itemvalue="Application.MapCase" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PhoneNetworkMR" />
-        <item itemvalue="Application.phoneMR" />
-        <item itemvalue="Application.CreateThreadApp" />
-        <item itemvalue="Application.ThreadCase" />
-        <item itemvalue="Application.MultiThreadChaos" />
+        <item itemvalue="Application.MapCase" />
+        <item itemvalue="Application.ReferenceAndPrimaryDataType" />
+        <item itemvalue="Application.wordcount" />
+        <item itemvalue="Application.TestUseMainboard" />
+        <item itemvalue="Application.PhoneMaker" />
       </list>
     </recent_temporary>
   </component>
@@ -464,7 +310,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579445008661</updated>
-      <workItem from="1623043395345" duration="1960000" />
     </task>
     <task id="LOCAL-00001" summary="flink pvuv">
       <created>1606013855036</created>
@@ -501,7 +346,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608739544616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="java">
+      <created>1608828178863</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608828178863</updated>
+    </task>
+    <task id="LOCAL-00007" summary="java">
+      <created>1611073030912</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611073030912</updated>
+    </task>
+    <task id="LOCAL-00008" summary="memory address">
+      <created>1611676141932</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611676141932</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -539,9 +405,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
@@ -563,7 +426,92 @@
     <MESSAGE value="leetcode zero set" />
     <MESSAGE value="supermarket" />
     <MESSAGE value="java" />
-    <option name="LAST_COMMIT_MESSAGE" value="java" />
+    <MESSAGE value="memory address" />
+    <option name="LAST_COMMIT_MESSAGE" value="memory address" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="328" y="106" key="#Project_Structure" timestamp="1605940359143">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1605940359143" />
+    <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1605956920922">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605956920922" />
+    <state x="345" y="102" key="CommitChangelistDialog2" timestamp="1611676141798">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="345" y="102" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1611676141798" />
+    <state x="345" y="96" key="CommitChangelistDialog2/0.0.1680.986@0.0.1680.986" timestamp="1611073030756" />
+    <state width="1038" height="499" key="GridCell.Tab.0.bottom" timestamp="1614615684089">
+      <screen x="1680" y="-50" width="1080" height="1920" />
+    </state>
+    <state width="1638" height="499" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1614007811299" />
+    <state width="1638" height="126" key="GridCell.Tab.0.bottom/0.0.1680.986@0.0.1680.986" timestamp="1611071940486" />
+    <state width="1038" height="499" key="GridCell.Tab.0.bottom/1680.-50.1080.1920/0.0.1680.1050@1680.-50.1080.1920" timestamp="1614615684089" />
+    <state width="1038" height="499" key="GridCell.Tab.0.center" timestamp="1614615684088">
+      <screen x="1680" y="-50" width="1080" height="1920" />
+    </state>
+    <state width="1638" height="499" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1614007811297" />
+    <state width="1638" height="126" key="GridCell.Tab.0.center/0.0.1680.986@0.0.1680.986" timestamp="1611071940485" />
+    <state width="1038" height="499" key="GridCell.Tab.0.center/1680.-50.1080.1920/0.0.1680.1050@1680.-50.1080.1920" timestamp="1614615684088" />
+    <state width="1038" height="499" key="GridCell.Tab.0.left" timestamp="1614615684087">
+      <screen x="1680" y="-50" width="1080" height="1920" />
+    </state>
+    <state width="1638" height="499" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1614007811296" />
+    <state width="1638" height="126" key="GridCell.Tab.0.left/0.0.1680.986@0.0.1680.986" timestamp="1611071940485" />
+    <state width="1038" height="499" key="GridCell.Tab.0.left/1680.-50.1080.1920/0.0.1680.1050@1680.-50.1080.1920" timestamp="1614615684087" />
+    <state width="1038" height="499" key="GridCell.Tab.0.right" timestamp="1614615684089">
+      <screen x="1680" y="-50" width="1080" height="1920" />
+    </state>
+    <state width="1638" height="499" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1614007811298" />
+    <state width="1638" height="126" key="GridCell.Tab.0.right/0.0.1680.986@0.0.1680.986" timestamp="1611071940485" />
+    <state width="1038" height="499" key="GridCell.Tab.0.right/1680.-50.1080.1920/0.0.1680.1050@1680.-50.1080.1920" timestamp="1614615684089" />
+    <state width="1638" height="327" key="GridCell.Tab.1.bottom" timestamp="1607840383942">
+      <screen x="0" y="0" width="1680" height="986" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685163" />
+    <state width="1638" height="327" key="GridCell.Tab.1.bottom/0.0.1680.986@0.0.1680.986" timestamp="1607840383942" />
+    <state width="1638" height="327" key="GridCell.Tab.1.center" timestamp="1607840383941">
+      <screen x="0" y="0" width="1680" height="986" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685163" />
+    <state width="1638" height="327" key="GridCell.Tab.1.center/0.0.1680.986@0.0.1680.986" timestamp="1607840383941" />
+    <state width="1638" height="327" key="GridCell.Tab.1.left" timestamp="1607840383941">
+      <screen x="0" y="0" width="1680" height="986" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685162" />
+    <state width="1638" height="327" key="GridCell.Tab.1.left/0.0.1680.986@0.0.1680.986" timestamp="1607840383941" />
+    <state width="1638" height="327" key="GridCell.Tab.1.right" timestamp="1607840383942">
+      <screen x="0" y="0" width="1680" height="986" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606230685163" />
+    <state width="1638" height="327" key="GridCell.Tab.1.right/0.0.1680.986@0.0.1680.986" timestamp="1607840383942" />
+    <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1612621407850">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="378" y="187" key="Maven.ArtifactSearchDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1612621407850" />
+    <state x="328" y="106" key="SettingsEditor" timestamp="1614007587960">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1614007587960" />
+    <state x="1001" y="212" width="549" height="524" key="StructurePopup" timestamp="1612623947153">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1001" y="212" width="549" height="524" key="StructurePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1612623947153" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1611676153038">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1611676153038" />
+    <state x="440" y="249" key="Vcs.Push.Dialog.v2/0.0.1680.986@0.0.1680.986" timestamp="1611073039918" />
+    <state x="627" y="310" key="chooseDestDirectoryDialog" timestamp="1605935899970">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="627" y="310" key="chooseDestDirectoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605935899970" />
+    <state x="474" y="147" key="new project wizard" timestamp="1605935042039">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="474" y="147" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1605935042039" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -588,16 +536,6 @@
           <line>24</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/spark_streaming/src/main/scala/streaming/streaming_case.scala</url>
-          <line>20</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/spark_streaming/src/main/scala/streaming/streaming_case.scala</url>
-          <line>43</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/PVAndUVExample.java</url>
           <line>42</line>
@@ -607,21 +545,6 @@
           <url>file://$PROJECT_DIR$/java/src/main/java/leetcode/SetZerosCase.java</url>
           <line>50</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/main/java/classLoader/CustomClassLoaderExample.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/main/java/SPI/TestMyServiceSPI.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java/src/main/java/thread/ThreadCase.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
