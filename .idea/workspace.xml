@@ -64,19 +64,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="geektime hbase work">
-      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/HDFSFileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/RDDPartition.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/SparkDistcp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/data/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/data/1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/data/2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/invertedIndex.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_16_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_16_SNAPSHOT.xml" afterDir="false" />
+    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="geektime spark work">
+      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/spark-core_homework.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/dependency-reduced-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark_core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark_core/spark_core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/spark_core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/transformation_func.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/transformation_func.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/HDFSFileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/SparkDistcp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/invertedIndex.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/invertedIndex.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/process_json.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/process_json.scala" afterDir="false" />
     </list>
     <list id="30acf68b-61b5-4070-9173-1952c133f3a8" name="setup code warehouse" comment="" />
     <list id="6f8445af-fe4f-48c4-b21e-aa34c80ca094" name="setup my code warehouse" comment="" />
@@ -148,8 +149,8 @@
       <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spark_core/src/main/scala/rdd/data" />
       <recent name="$PROJECT_DIR$/spark_core/src/main/scala/rdd" />
+      <recent name="$PROJECT_DIR$/spark_core/src/main/scala/rdd/data" />
       <recent name="$PROJECT_DIR$/java/src/main/java/RPC_code" />
       <recent name="$PROJECT_DIR$/flink/src/main/scala/data_stream" />
       <recent name="$PROJECT_DIR$/spark_sql/src/main/scala/read" />
@@ -395,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627741205034</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="geektime spark work">
+      <created>1629802828153</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1629802828154</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -457,7 +465,8 @@
     <MESSAGE value="memory address" />
     <MESSAGE value="geektime rpc work" />
     <MESSAGE value="geektime hbase work" />
-    <option name="LAST_COMMIT_MESSAGE" value="geektime hbase work" />
+    <MESSAGE value="geektime spark work" />
+    <option name="LAST_COMMIT_MESSAGE" value="geektime spark work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

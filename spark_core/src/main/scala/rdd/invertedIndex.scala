@@ -3,6 +3,7 @@ package rdd
 import org.apache.hadoop.io.{LongWritable, Text}
 import org.apache.hadoop.mapred.{FileSplit, InputSplit, TextInputFormat}
 import org.apache.log4j.Logger
+import org.apache.spark.internal.Logging
 import org.apache.spark.rdd.{NewHadoopRDD, RDD}
 import org.apache.spark.sql.SparkSession
 
@@ -12,10 +13,10 @@ import org.apache.spark.sql.SparkSession
  * @version 1.0
  * @describe
  */
-object invertedIndex {
+object invertedIndex extends Logging {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder().appName("invertedIndex").master("local[2]").getOrCreate()
-
+    spark.sparkContext.setLogLevel("ERROR")
     val filePath = "/Users/dongqiudi/IdeaProjects/code_warehouse/spark_core/src/main/scala/rdd/data/"
     // 读取多个文件，并附有文件名
     val originalRDD: RDD[(String, String)] = spark.sparkContext.wholeTextFiles(filePath)
@@ -35,7 +36,6 @@ object invertedIndex {
       val wordArray = line._2.replace("\"", "").split(" ")
       wordArray.map((_, fileName.replace("file:" + filePath, "")))
     })
-    wordInFileNameRDD.foreach(println)
 
     // groupByKey分组，将单词对应的文件名放到一个组中
     // 结果一：
@@ -44,6 +44,8 @@ object invertedIndex {
     //     "banana": {2}
     val res1RDD = wordInFileNameRDD.groupByKey().map(kv => (kv._1, kv._2.toSet))
     res1RDD.foreach(println)
+
+    println("==========我是分割线=============")
 
     // (it,0) -> mapValues (it,(0,1)) , (it,(0,1)) -> groupByKey -> (it,CompactBuffer((0,1), (0,1), (1,1), (2,1)))
     // (it,CompactBuffer((0,1), (0,1), (1,1), (2,1))) -> map(groupBy(CompactBuffer.element(_.1))) -> reduce 聚合
