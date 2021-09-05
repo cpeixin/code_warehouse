@@ -65,19 +65,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="geektime spark work">
-      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/spark-core_homework.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/SparkSQL-homework.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/test.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_core/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_core/spark_core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/spark_core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/HDFSFileUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/SparkDistcp.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/invertedIndex.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/invertedIndex.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/process_json.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/scala/rdd/process_json.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/catalyst_case.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/catalyst_case.scala" afterDir="false" />
     </list>
     <list id="30acf68b-61b5-4070-9173-1952c133f3a8" name="setup code warehouse" comment="" />
     <list id="6f8445af-fe4f-48c4-b21e-aa34c80ca094" name="setup my code warehouse" comment="" />
@@ -166,7 +157,7 @@
       <recent name="rdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.invertedIndex">
+  <component name="RunManager" selected="Application.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -194,6 +185,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="catalyst_case" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sql.catalyst_case" />
+      <module name="spark_sql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="invertedIndex" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="rdd.invertedIndex" />
       <module name="spark_core" />
@@ -208,27 +213,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="myClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RPC_code.myClient" />
-      <module name="java" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sql.test" />
+      <module name="spark_sql" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RPC_code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="myServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RPC_code.myServer" />
-      <module name="java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RPC_code.*" />
+          <option name="PATTERN" value="sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,19 +280,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.myServer" />
-      <item itemvalue="Application.myClient" />
       <item itemvalue="Application.transformation_func" />
       <item itemvalue="Application.RDDPartition" />
       <item itemvalue="Application.invertedIndex" />
+      <item itemvalue="Application.catalyst_case" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.catalyst_case" />
         <item itemvalue="Application.invertedIndex" />
         <item itemvalue="Application.RDDPartition" />
         <item itemvalue="Application.transformation_func" />
-        <item itemvalue="Application.myClient" />
-        <item itemvalue="Application.myServer" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629802828154</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="geektime spark work">
+      <created>1629901397813</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1629901397813</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -477,11 +475,6 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/spark_sql/src/main/scala/sql/catalyst_case.scala</url>
-          <line>22</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/structured_streaming/src/main/scala/structured_kafka_append.scala</url>
           <line>46</line>
           <option name="timeStamp" value="11" />
@@ -505,6 +498,11 @@
           <url>file://$PROJECT_DIR$/spark_core/src/main/scala/rdd/RDDPartition.scala</url>
           <line>32</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark_sql/src/main/scala/sql/catalyst_case.scala</url>
+          <line>22</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/PVAndUVExample.java</url>

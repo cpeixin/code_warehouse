@@ -17,10 +17,10 @@ object catalyst_case {
       * {"user_name":"haylee","customer_id":12031603,"age":23,"birthday":"1992-08-10","deposit_amount":4000.56,"last_login_time":"2017-03-11 10:55:00"}
       * {"user_name":"vicky","customer_id":12031604,"age":30,"birthday":"2000-03-02","deposit_amount":200.4,"last_login_time":"2017-03-10 09:10:00"}
       */
-    val df: DataFrame = spark.read.json("/Users/cpeixin/IdeaProjects/code_warehouse/data/user_data.json")
+    val df: DataFrame = spark.read.json("/Users/dongqiudi/IdeaProjects/code_warehouse/data/user_data.json")
     df.createTempView("t_user")
 
-    val user_df: DataFrame = spark.sql("select * from t_user")
+    val user_df: DataFrame = spark.sql("select * from t_user where age=23")
     user_df.show()
   }
 }
