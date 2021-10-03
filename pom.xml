@@ -23,6 +23,7 @@
         <module>spark16</module>
         <module>project-1-pv-uv-computing</module>
         <module>functionWareHouse</module>
+        <module>olap</module>
     </modules>
 
 

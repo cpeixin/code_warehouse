@@ -64,11 +64,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="geektime spark work">
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/SparkSQL-homework.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/test.scala" afterDir="false" />
+    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="geektime spark sql home work">
+      <change afterPath="$PROJECT_DIR$/olap/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/olap/src/main/java/HyperLogLog算法在Presto的应用.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/0-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/0-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/0-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/catalyst_case.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/catalyst_case.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/SparkSQL-homework.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/SparkSQL-homework.md" afterDir="false" />
     </list>
     <list id="30acf68b-61b5-4070-9173-1952c133f3a8" name="setup code warehouse" comment="" />
     <list id="6f8445af-fe4f-48c4-b21e-aa34c80ca094" name="setup my code warehouse" comment="" />
@@ -125,26 +136,29 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="402" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/java/src/main/resources" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark_sql/src/main/scala/sql" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spark_sql/src/main/scala/sql" />
       <recent name="$PROJECT_DIR$/java/src/main/resources" />
       <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_24" />
       <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_21" />
       <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_16" />
-      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spark_sql/src/main/scala/sql" />
       <recent name="$PROJECT_DIR$/spark_core/src/main/scala/rdd" />
       <recent name="$PROJECT_DIR$/spark_core/src/main/scala/rdd/data" />
       <recent name="$PROJECT_DIR$/java/src/main/java/RPC_code" />
       <recent name="$PROJECT_DIR$/flink/src/main/scala/data_stream" />
-      <recent name="$PROJECT_DIR$/spark_sql/src/main/scala/read" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -157,7 +171,7 @@
       <recent name="rdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.catalyst_case">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -189,12 +203,6 @@
       <option name="MAIN_CLASS_NAME" value="sql.catalyst_case" />
       <module name="spark_sql" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -288,8 +296,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
         <item itemvalue="Application.catalyst_case" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.invertedIndex" />
         <item itemvalue="Application.RDDPartition" />
         <item itemvalue="Application.transformation_func" />
@@ -401,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629901397813</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="geektime spark sql home work">
+      <created>1630851987678</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1630851987678</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -464,7 +479,8 @@
     <MESSAGE value="geektime rpc work" />
     <MESSAGE value="geektime hbase work" />
     <MESSAGE value="geektime spark work" />
-    <option name="LAST_COMMIT_MESSAGE" value="geektime spark work" />
+    <MESSAGE value="geektime spark sql home work" />
+    <option name="LAST_COMMIT_MESSAGE" value="geektime spark sql home work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -500,9 +516,9 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/spark_sql/src/main/scala/sql/catalyst_case.scala</url>
-          <line>22</line>
-          <option name="timeStamp" value="31" />
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.12/3.0.0/spark-sql_2.12-3.0.0-sources.jar!/org/apache/spark/sql/Dataset.scala</url>
+          <line>97</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java/com/geekbang/flink/project/PVAndUVExample.java</url>
@@ -520,6 +536,7 @@
       <pinned-members>
         <PinnedItemInfo parentTag="org.apache.spark.SparkContext" memberName="_resources" />
         <PinnedItemInfo parentTag="org.apache.spark.rdd.MapPartitionsRDD" memberName="dependencies_" />
+        <PinnedItemInfo parentTag="org.apache.spark.sql.execution.QueryExecution" memberName="toRdd" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
