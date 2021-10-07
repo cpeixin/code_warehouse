@@ -65,21 +65,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="geektime spark sql home work">
-      <change afterPath="$PROJECT_DIR$/olap/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olap/src/main/java/HyperLogLog算法在Presto的应用.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/0-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/0-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/0-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/2-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/2-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/2-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/2-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/2-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/SparkSQL-homework_2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/SparkSQL-homework.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/sql/SparkSQL-homework.md" afterDir="false" />
     </list>
     <list id="30acf68b-61b5-4070-9173-1952c133f3a8" name="setup code warehouse" comment="" />
     <list id="6f8445af-fe4f-48c4-b21e-aa34c80ca094" name="setup my code warehouse" comment="" />
@@ -416,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630851987678</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="geektime spark sql home work">
+      <created>1633261094696</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1633261094696</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
