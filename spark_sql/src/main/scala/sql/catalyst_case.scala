@@ -1,6 +1,9 @@
 package sql
 
+import org.apache.spark.sql.functions.col
 import org.apache.spark.sql.{DataFrame, SparkSession}
+
+case class demo(user_name: String, age: Long)
 
 object catalyst_case {
   def main(args: Array[String]): Unit = {
@@ -18,9 +21,11 @@ object catalyst_case {
       * {"user_name":"vicky","customer_id":12031604,"age":30,"birthday":"2000-03-02","deposit_amount":200.4,"last_login_time":"2017-03-10 09:10:00"}
       */
     val df: DataFrame = spark.read.json("/Users/dongqiudi/IdeaProjects/code_warehouse/data/user_data.json")
-    df.createTempView("t_user")
+    import spark.implicits._
+    val res = df.map(record =>
+      demo(record.getAs[String]("user_name"), record.getAs[Long]("age"))
+    ).toDF("user_name","age")
 
-    val user_df: DataFrame = spark.sql("select * from t_user where age=23")
-    user_df.show()
+    res.map(record =>record.getAs[String]("user_name")).show
   }
 }

@@ -82,6 +82,8 @@ case class CompactTableCommand(
 
   override def run(sparkSession: SparkSession): Seq[Row] = {
     sparkSession.catalog.setCurrentDatabase(table.database.getOrElse("default"))
+    sparkSession.conf.set("hive.exec.dynamici.partition", true)
+    sparkSession.conf.set("hive.exec.dynamic.partition.mode", "nonstrict")
     // 指定表数据
     val originalDF = sparkSession.table(table.identifier)
     // 计算分区数
@@ -115,8 +117,6 @@ case class CompactTableCommand(
       val partitionKey = partitionSpec.head._1
       val partitionValue = partitionSpec.head._2
       
-      sparkSession.conf.set("hive.exec.dynamici.partition", true)
-      sparkSession.conf.set("hive.exec.dynamic.partition.mode", "nonstrict")
       originalDF.where(s"${partitionKey}='${partitionValue}'").repartition(partitions)
         .write
         .mode(SaveMode.Overwrite)
@@ -171,3 +171,10 @@ ds=20211009 分区下 一个文件
 
 - 结果
 ![](2-6.png)
+  
+- 不指定文件数
+  
+`COMPACT TABLE dws_dept_ds;`
+
+> 这个case 不指定文件数，则直接optimizedPlan取文件大小，除128MB, 直接overwrite覆写
+
