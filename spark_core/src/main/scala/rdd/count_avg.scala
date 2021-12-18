@@ -17,7 +17,5 @@ object count_avg {
     val frame: DataFrame = user_df.agg("user"->"count", "age"->"avg")
 
     frame.show
-
-
   }
 }

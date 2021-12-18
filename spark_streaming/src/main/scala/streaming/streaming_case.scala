@@ -6,6 +6,7 @@ import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.SparkSession
 import org.apache.spark.streaming.dstream.InputDStream
 import org.apache.spark.streaming.kafka010.ConsumerStrategies.Subscribe
 import org.apache.spark.streaming.kafka010.KafkaUtils
@@ -22,6 +23,10 @@ object streaming_case {
     val conf: SparkConf = new SparkConf()
       .setAppName("Kafka Streaming")
       .setMaster("local[2]")
+    val spark: SparkSession = SparkSession
+      .builder()
+      .config(conf)
+      .getOrCreate()
     val ssc = new StreamingContext(conf, Seconds(10))
     ssc.checkpoint("/Users/cpeixin/IdeaProjects/code_warehouse/spark_streaming/src/main/scala/streaming/")
 

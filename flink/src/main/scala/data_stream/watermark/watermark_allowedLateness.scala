@@ -61,7 +61,7 @@ object watermark_allowedLateness {
       //          }
       //          out.collect((key, scoreList.toList))
       //        }
-      //      })
+      //      })Flink
 
       //第二种方法
       .apply(new WindowFunction[GameData, (String, List[Int]), String, TimeWindow] {
