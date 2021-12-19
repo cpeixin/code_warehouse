@@ -8,6 +8,6 @@ public class BasicEventLoopDemo {
         subject.registerObserver(new ConcreteObserverOne());
         subject.registerObserver(new ConcreteObserverTwo());
 
-        subject.notifyObservers(new Message());
+//        subject.notifyObservers(new Message());
     }
 }

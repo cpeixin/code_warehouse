@@ -1,4 +1,4 @@
-package reflectPart.bean;
+package Reflect.bean;
 
 /**
  * @author Congpeixin

@@ -1,8 +1,9 @@
-package reflectPart;
+package Reflect;
 
-import reflectPart.bean.Student;
+import Reflect.bean.Student;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
@@ -14,9 +15,39 @@ import java.lang.reflect.Method;
  */
 public class Main {
     public static void main(String[] args) {
+
         try {
-            getClassMethods();
-        } catch (ClassNotFoundException e) {
+            // 获取类
+            Class studentClass = Class.forName("Reflect.bean.Student");
+            // 获取构造函数，用来实例化，创建对象
+            Constructor studentConstructor = studentClass.getDeclaredConstructor(String.class);
+            // 私有构造函数需要进行设置
+            studentConstructor.setAccessible(true);
+            // 利用构造函数创建对象
+            // Student student = (Student) studentConstructor.newInstance("cong");
+            Object student = studentConstructor.newInstance("cong");
+            // 获取声明的字段
+            Field studentAgeField =studentClass.getDeclaredField("studentAge");
+            // 字段赋值
+            studentAgeField.set(student, 28);
+            // 获取声明函数
+            Method studentShowMethod = studentClass.getDeclaredMethod("show", String.class);
+            // 私有函数使用设置
+            studentShowMethod.setAccessible(true);
+            // 函数的使用,使用函数的invoke方法调用此函数，传入此对象以及函数所需参数
+            Object result = studentShowMethod.invoke(student, "message");
+
+            System.out.println("result: " + result);
+
+        } catch (ClassNotFoundException | NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (NoSuchFieldException e) {
             e.printStackTrace();
         }
     }
@@ -27,7 +58,7 @@ public class Main {
      */
     public static void getClassObjectMethods() throws ClassNotFoundException {
         // 通过类路径字符串获取Class对象,反射获取 Class 对象的方法；
-        Class studentClass = Class.forName("reflectPart.bean.Student");
+        Class studentClass = Class.forName("Reflect.bean.Student");
 
         // 通过类的Class属性,限制条件：需要导入类的包；
         Class studentClass2 = Student.class;
@@ -50,7 +81,7 @@ public class Main {
      * @throws NoSuchFieldException
      */
     public static void getFieldsMethods() throws ClassNotFoundException, NoSuchFieldException {
-        Class studentClass = Class.forName("reflectPart.bean.Student");
+        Class studentClass = Class.forName("Reflect.bean.Student");
         // 获取所有声明变量
         Field[] fields = studentClass.getDeclaredFields();
         // 获取所有公有变量
@@ -71,7 +102,7 @@ public class Main {
      * @throws ClassNotFoundException
      */
     public static void getConstructorMethods() throws ClassNotFoundException {
-        Class studentClass = Class.forName("reflectPart.bean.Student");
+        Class studentClass = Class.forName("Reflect.bean.Student");
 
         // 获取所有声明的构造函数
         Constructor[] constructors = studentClass.getDeclaredConstructors();
@@ -91,7 +122,7 @@ public class Main {
      * @throws ClassNotFoundException
      */
     public static void getClassMethods() throws ClassNotFoundException {
-        Class studentClass = Class.forName("reflectPart.bean.Student");
+        Class studentClass = Class.forName("Reflect.bean.Student");
 
         Method[] declaredMethodList = studentClass.getDeclaredMethods();
         for (Method declaredMethod : declaredMethodList) {
