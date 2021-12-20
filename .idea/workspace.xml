@@ -64,7 +64,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="反射机制" />
+    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="..">
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic/AdminServiceDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic/AdminServiceInvocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic/DynamicProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/Proxy/Static/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/Proxy/Static/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/Proxy/Static/AdminServiceStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/Proxy/Static/StaticProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/EventLoop/BasicEventLoopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/EventLoop/BasicEventLoopDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/reflectPart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/Reflect/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/reflectPart/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/Reflect/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scala/scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark16/spark16.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark16/spark16.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/spark_core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/spark_core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/spark_sql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/spark_sql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_streaming/spark_streaming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_streaming/spark_streaming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structured_streaming/structured_streaming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/structured_streaming/structured_streaming.iml" afterDir="false" />
+    </list>
     <list id="30acf68b-61b5-4070-9173-1952c133f3a8" name="setup code warehouse" comment="" />
     <list id="6f8445af-fe4f-48c4-b21e-aa34c80ca094" name="setup my code warehouse" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +108,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/dependabot/maven/flink/mysql-mysql-connector-java-8.0.16" />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -120,7 +148,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="402" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/project-1-pv-uv-computing/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark_core/src/main/scala/rdd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.54022986" />
@@ -130,13 +158,6 @@
     <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spark_core/src/main/scala/rdd" />
-      <recent name="$PROJECT_DIR$/spark_sql/src/main/scala/sql" />
-      <recent name="$PROJECT_DIR$/java/src/main/resources" />
-      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_24" />
-      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_21" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java/src/main/java/RPC/orderQuery" />
       <recent name="$PROJECT_DIR$/java/src/main/java/RPC" />
@@ -154,8 +175,15 @@
       <recent name="utils" />
       <recent name="data_stream" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic" />
+      <recent name="$PROJECT_DIR$/spark_core/src/main/scala/rdd" />
+      <recent name="$PROJECT_DIR$/spark_sql/src/main/scala/sql" />
+      <recent name="$PROJECT_DIR$/java/src/main/resources" />
+      <recent name="$PROJECT_DIR$/java/src/main/java/geek/two_24" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.StaticProxyTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -177,13 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflectPart.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RPC.orderQuery.api.Main" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflectPart.*" />
+          <option name="PATTERN" value="RPC.orderQuery.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +220,26 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RPC.orderQuery.api.Main" />
+      <option name="MAIN_CLASS_NAME" value="Reflect.Main" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RPC.orderQuery.api.*" />
+          <option name="PATTERN" value="Reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Proxy.Static.StaticProxyTest" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Proxy.Static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,14 +255,6 @@
     </configuration>
     <configuration name="scoreTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scoreTest" />
-      <module name="scala" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="timeCase" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="timeCase" />
       <module name="scala" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -266,19 +300,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.timeCase" />
       <item itemvalue="Application.scoreTest" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.StaticProxyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticProxyTest" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.scoreTest" />
-        <item itemvalue="Application.timeCase" />
       </list>
     </recent_temporary>
   </component>
@@ -415,14 +449,7 @@
       <option name="project" value="LOCAL" />
       <updated>1639735894669</updated>
     </task>
-    <task id="LOCAL-00018" summary="反射机制">
-      <created>1639738952415</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1639738952415</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -488,8 +515,33 @@
     <MESSAGE value="geektime spark sql home work" />
     <MESSAGE value="geektime spark sql home work 2" />
     <MESSAGE value=".." />
-    <MESSAGE value="反射机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="反射机制" />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="621" y="-827" key="#com.intellij.ide.util.MemberChooser" timestamp="1639910820630">
+      <screen x="-152" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="621" y="-827" key="#com.intellij.ide.util.MemberChooser/-152.-1080.1920.1080/0.0.1680.1050@-152.-1080.1920.1080" timestamp="1639910820630" />
+    <state width="1878" height="259" key="GridCell.Tab.0.bottom" timestamp="1639837103258">
+      <screen x="-152" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.bottom/-152.-1080.1920.1080/0.0.1680.1050@-152.-1080.1920.1080" timestamp="1639806215256" />
+    <state width="1878" height="259" key="GridCell.Tab.0.bottom/-152.-1080.1920.1080/0.23.1680.1027@-152.-1080.1920.1080" timestamp="1639837103258" />
+    <state width="1878" height="259" key="GridCell.Tab.0.center" timestamp="1639837103256">
+      <screen x="-152" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.center/-152.-1080.1920.1080/0.0.1680.1050@-152.-1080.1920.1080" timestamp="1639806215254" />
+    <state width="1878" height="259" key="GridCell.Tab.0.center/-152.-1080.1920.1080/0.23.1680.1027@-152.-1080.1920.1080" timestamp="1639837103256" />
+    <state width="1878" height="259" key="GridCell.Tab.0.left" timestamp="1639837103255">
+      <screen x="-152" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.left/-152.-1080.1920.1080/0.0.1680.1050@-152.-1080.1920.1080" timestamp="1639806215253" />
+    <state width="1878" height="259" key="GridCell.Tab.0.left/-152.-1080.1920.1080/0.23.1680.1027@-152.-1080.1920.1080" timestamp="1639837103255" />
+    <state width="1878" height="259" key="GridCell.Tab.0.right" timestamp="1639837103257">
+      <screen x="-152" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.right/-152.-1080.1920.1080/0.0.1680.1050@-152.-1080.1920.1080" timestamp="1639806215255" />
+    <state width="1878" height="259" key="GridCell.Tab.0.right/-152.-1080.1920.1080/0.23.1680.1027@-152.-1080.1920.1080" timestamp="1639837103257" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

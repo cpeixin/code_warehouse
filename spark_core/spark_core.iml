@@ -12,6 +12,25 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="library" name="scala-sdk-2.11.8" level="application" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-client:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-common:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-auth:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: com.nimbusds:nimbus-jose-jwt:4.41.1" level="project" />
+    <orderEntry type="library" name="Maven: net.minidev:json-smart:2.3" level="project" />
+    <orderEntry type="library" name="Maven: net.minidev:accessors-smart:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:5.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-hdfs-client:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-mapreduce-client-app:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-mapreduce-client-common:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-yarn-client:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-yarn-server-common:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-yarn-api:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-mapreduce-client-core:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-yarn-common:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-mapreduce-client-jobclient:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-annotations:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-hdfs:2.8.5" level="project" />
     <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.12.10" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-core_2.12:3.1.2" level="project" />
     <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.8" level="project" />
