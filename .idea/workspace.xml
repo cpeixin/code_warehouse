@@ -64,10 +64,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="..">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/main/java/reflectPart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/reflectPart/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="反射机制" />
     <list id="30acf68b-61b5-4070-9173-1952c133f3a8" name="setup code warehouse" comment="" />
     <list id="6f8445af-fe4f-48c4-b21e-aa34c80ca094" name="setup my code warehouse" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -418,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639735894669</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="反射机制">
+      <created>1639738952415</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1639738952415</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -484,7 +488,8 @@
     <MESSAGE value="geektime spark sql home work" />
     <MESSAGE value="geektime spark sql home work 2" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="反射机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="反射机制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
