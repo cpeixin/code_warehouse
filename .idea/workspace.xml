@@ -64,16 +64,42 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="..">
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/Socket/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/Socket/demo/ClientTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/Socket/demo/ServerTCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/Socket/mutilSocket/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/Socket/v2-57488fc7fdb9064eee26ebbb090961d1_1440w.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/Socket/屏幕快照 2021-12-20 上午9.10.36.png" afterDir="false" />
+    <list default="true" id="d2f57958-fd7b-4682-a28a-5f4a763e83cf" name="Default" comment="socket">
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_1/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_1/CallBackInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_1/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_2/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_2/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_3/Downloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_3/Thunder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_reflect/CallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_reflect/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_reflect/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/RPC/SparkDag/client/RPCClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/RPC/SparkDag/service/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/RPC/SparkDag/service/RPCServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/RPC/SparkDag/service/SparkDagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/RPC/SparkDag/service/SparkDagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/RPC/hello/client/RpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/RPC/hello/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/RPC/hello/service/IHelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/RPC/hello/service/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/RPC/hello/service/RPCServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/netty/HttpServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_warehouse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code_warehouse.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_sql/spark_sql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/spark_sql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/Proxy/Dynamic/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic/AdminServiceDynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/Proxy/Dynamic/AdminServiceDynamicProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/Proxy/Dynamic/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic/AdminServiceInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/Proxy/Dynamic/AdminServiceInvocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/Proxy/Dynamic/DynamicProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/Proxy/Dynamic/DynamicProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/Proxy/Static/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/Proxy/Static/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/Proxy/Static/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/Proxy/Static/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/Proxy/Static/AdminServiceStaticProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/Proxy/Static/AdminServiceStaticProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/Proxy/Static/StaticProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/Proxy/Static/StaticProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/Reflect/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/Reflect/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/Reflect/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/DesignPatterns/Reflect/bean/Student.java" afterDir="false" />
     </list>
     <list id="30acf68b-61b5-4070-9173-1952c133f3a8" name="setup code warehouse" comment="" />
     <list id="6f8445af-fe4f-48c4-b21e-aa34c80ca094" name="setup my code warehouse" comment="" />
@@ -169,7 +195,7 @@
       <recent name="data_stream" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientTCP">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -177,27 +203,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="ClientTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.demo.ClientTCP" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.CallBack.demo_reflect.Main" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RPC.orderQuery.service.Main" />
-      <module name="java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RPC.orderQuery.service.*" />
+          <option name="PATTERN" value="DesignPatterns.CallBack.demo_reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +218,12 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RPC.orderQuery.api.Main" />
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.CallBack.demo_2.Main" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RPC.orderQuery.api.*" />
+          <option name="PATTERN" value="DesignPatterns.CallBack.demo_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,13 +245,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerTCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Socket.demo.ServerTCP" />
+    <configuration name="RPCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RPC.SparkDag.client.RPCClient" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Socket.demo.*" />
+          <option name="PATTERN" value="RPC.SparkDag.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,13 +259,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Proxy.Static.StaticProxyTest" />
+    <configuration name="Thunder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.CallBack.demo_3.Thunder" />
       <module name="java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Proxy.Static.*" />
+          <option name="PATTERN" value="DesignPatterns.CallBack.demo_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,6 +275,20 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.CallBack.demo_1.test" />
+      <module name="java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.CallBack.demo_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,19 +332,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.RPCClient" />
+      <item itemvalue="Application.test" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.StaticProxyTest" />
-      <item itemvalue="Application.ServerTCP" />
-      <item itemvalue="Application.ClientTCP" />
+      <item itemvalue="Application.Thunder" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientTCP" />
-        <item itemvalue="Application.ServerTCP" />
-        <item itemvalue="Application.StaticProxyTest" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Thunder" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.RPCClient" />
       </list>
     </recent_temporary>
   </component>
@@ -455,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639735894669</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="socket">
+      <created>1639998109093</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1639998109093</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -521,7 +554,8 @@
     <MESSAGE value="geektime spark sql home work" />
     <MESSAGE value="geektime spark sql home work 2" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="socket" />
+    <option name="LAST_COMMIT_MESSAGE" value="socket" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -575,6 +609,11 @@
           <url>file://$PROJECT_DIR$/java/src/main/java/Socket/demo/ClientTCP.java</url>
           <line>18</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java/src/main/java/DesignPatterns/CallBack/demo_2/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

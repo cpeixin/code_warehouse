@@ -1,4 +1,4 @@
-package Reflect.bean;
+package DesignPatterns.Reflect.bean;
 
 /**
  * @author Congpeixin

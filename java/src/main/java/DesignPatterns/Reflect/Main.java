@@ -1,6 +1,6 @@
-package Reflect;
+package DesignPatterns.Reflect;
 
-import Reflect.bean.Student;
+import DesignPatterns.Reflect.bean.Student;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -18,7 +18,7 @@ public class Main {
 
         try {
             // 获取类
-            Class studentClass = Class.forName("Reflect.bean.Student");
+            Class studentClass = Class.forName("DesignPatterns.Reflect.bean.Student");
             // 获取构造函数，用来实例化，创建对象
             Constructor studentConstructor = studentClass.getDeclaredConstructor(String.class);
             // 私有构造函数需要进行设置
@@ -58,7 +58,7 @@ public class Main {
      */
     public static void getClassObjectMethods() throws ClassNotFoundException {
         // 通过类路径字符串获取Class对象,反射获取 Class 对象的方法；
-        Class studentClass = Class.forName("Reflect.bean.Student");
+        Class studentClass = Class.forName("DesignPatterns.Reflect.bean.Student");
 
         // 通过类的Class属性,限制条件：需要导入类的包；
         Class studentClass2 = Student.class;
@@ -81,7 +81,7 @@ public class Main {
      * @throws NoSuchFieldException
      */
     public static void getFieldsMethods() throws ClassNotFoundException, NoSuchFieldException {
-        Class studentClass = Class.forName("Reflect.bean.Student");
+        Class studentClass = Class.forName("DesignPatterns.Reflect.bean.Student");
         // 获取所有声明变量
         Field[] fields = studentClass.getDeclaredFields();
         // 获取所有公有变量
@@ -102,7 +102,7 @@ public class Main {
      * @throws ClassNotFoundException
      */
     public static void getConstructorMethods() throws ClassNotFoundException {
-        Class studentClass = Class.forName("Reflect.bean.Student");
+        Class studentClass = Class.forName("DesignPatterns.Reflect.bean.Student");
 
         // 获取所有声明的构造函数
         Constructor[] constructors = studentClass.getDeclaredConstructors();
@@ -122,7 +122,7 @@ public class Main {
      * @throws ClassNotFoundException
      */
     public static void getClassMethods() throws ClassNotFoundException {
-        Class studentClass = Class.forName("Reflect.bean.Student");
+        Class studentClass = Class.forName("DesignPatterns.Reflect.bean.Student");
 
         Method[] declaredMethodList = studentClass.getDeclaredMethods();
         for (Method declaredMethod : declaredMethodList) {

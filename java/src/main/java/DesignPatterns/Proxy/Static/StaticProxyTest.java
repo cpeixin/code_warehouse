@@ -1,4 +1,4 @@
-package Proxy.Static;
+package DesignPatterns.Proxy.Static;
 
 public class StaticProxyTest {
     public static void main(String[] args) {

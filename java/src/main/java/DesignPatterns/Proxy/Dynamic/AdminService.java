@@ -1,4 +1,4 @@
-package Proxy.Static;
+package DesignPatterns.Proxy.Dynamic;
 
 public interface AdminService {
     void update();

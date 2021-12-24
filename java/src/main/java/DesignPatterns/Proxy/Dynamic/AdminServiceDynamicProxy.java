@@ -1,4 +1,4 @@
-package Proxy.Dynamic;
+package DesignPatterns.Proxy.Dynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;

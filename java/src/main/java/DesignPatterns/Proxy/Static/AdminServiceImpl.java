@@ -1,4 +1,4 @@
-package Proxy.Static;
+package DesignPatterns.Proxy.Static;
 
 public class AdminServiceImpl implements AdminService {
     @Override

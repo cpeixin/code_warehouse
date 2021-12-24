@@ -1,4 +1,4 @@
-package Proxy.Dynamic;
+package DesignPatterns.Proxy.Dynamic;
 
 public class AdminServiceImpl implements AdminService {
     @Override
